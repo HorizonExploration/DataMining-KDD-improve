@@ -12,6 +12,7 @@
 /data/
 /runs/*
 !/runs/shared_public60_20261026/
+/runs/shared_public60_20261026/logs/*.tar.gz
 /tools/
 /champion/asr_models/
 **/.venv/

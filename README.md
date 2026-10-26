@@ -39,7 +39,7 @@ intro-plan/     课程原始PPT、初期项目梳理与环境搭建计划
 .env.example    ECNU 混用配置模板，不含令牌
 ```
 
-运行后生成的数据、gold、缓存、权重、虚拟环境、完整对话和本机配置不提交到Git。`runs/` 只提交[团队共享归档](runs/shared_public60_20261026/README.md)，含60题原始预测及复盘资料；完整约2GB运行目录仍留在本机。课程资料见 [intro-plan](intro-plan/README.md)，数据与权重由成员按准备脚本下载。
+运行后生成的数据、gold、缓存、权重、虚拟环境和本机配置不提交到Git。`runs/` 只提交[团队共享归档](runs/shared_public60_20261026/README.md)，含60题原始预测及复盘资料，以及[保留日志与模型对话压缩包](runs/shared_public60_20261026/logs/README.md)；完整约2GB运行目录仍留在本机。课程资料见 [intro-plan](intro-plan/README.md)，数据与权重由成员按准备脚本下载。
 
 ## 安装与准备
 
