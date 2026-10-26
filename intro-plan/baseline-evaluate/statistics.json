@@ -1,0 +1,138 @@
+{
+  "domain_definition": "Manual question-based grouping; not an official taxonomy",
+  "domains": {
+    "证券与基金": {
+      "tasks": 41,
+      "mean_course_score": 74.85780487804878,
+      "official_passed": 26,
+      "course_full": 26,
+      "course_partial": 6,
+      "course_zero": 9
+    },
+    "宏观经济": {
+      "tasks": 12,
+      "mean_course_score": 81.24916666666667,
+      "official_passed": 9,
+      "course_full": 5,
+      "course_partial": 7,
+      "course_zero": 0
+    },
+    "医疗": {
+      "tasks": 7,
+      "mean_course_score": 98.57142857142857,
+      "official_passed": 5,
+      "course_full": 5,
+      "course_partial": 2,
+      "course_zero": 0
+    }
+  },
+  "reference_score": 75.6387,
+  "current_score": 78.90266666666666,
+  "reference_model_counts_from_ppt": {
+    "ecnu-max": 32,
+    "ecnu-plus": 28
+  },
+  "current_model_counts": {
+    "retained_ecnu-plus": 33,
+    "ecnu-max": 27
+  },
+  "reference_gap_points": 3.2639666666666614,
+  "full_task_contribution_points": 60.0,
+  "partial_task_contribution_points": 18.90266666666667,
+  "zero_task_loss_points": 15.0,
+  "partial_task_loss_points": 6.0973333333333315,
+  "domain_task_ids": {
+    "证券与基金": [
+      "task_18",
+      "task_23",
+      "task_24",
+      "task_33",
+      "task_43",
+      "task_85",
+      "task_102",
+      "task_103",
+      "task_111",
+      "task_123",
+      "task_128",
+      "task_129",
+      "task_140",
+      "task_159",
+      "task_166",
+      "task_182",
+      "task_184",
+      "task_196",
+      "task_199",
+      "task_200",
+      "task_215",
+      "task_257",
+      "task_259",
+      "task_263",
+      "task_267",
+      "task_269",
+      "task_279",
+      "task_285",
+      "task_298",
+      "task_300",
+      "task_322",
+      "task_326",
+      "task_337",
+      "task_361",
+      "task_362",
+      "task_371",
+      "task_378",
+      "task_380",
+      "task_382",
+      "task_398",
+      "task_402"
+    ],
+    "宏观经济": [
+      "task_10",
+      "task_35",
+      "task_58",
+      "task_86",
+      "task_168",
+      "task_208",
+      "task_264",
+      "task_312",
+      "task_328",
+      "task_336",
+      "task_389",
+      "task_391"
+    ],
+    "医疗": [
+      "task_44",
+      "task_48",
+      "task_87",
+      "task_127",
+      "task_133",
+      "task_329",
+      "task_409"
+    ]
+  },
+  "answer_shapes": {
+    "single_row": {
+      "tasks": 26,
+      "mean_course_score": 85.64115384615386,
+      "official_passed": 18,
+      "course_full": 17,
+      "course_partial": 6,
+      "course_zero": 3
+    },
+    "multi_row": {
+      "tasks": 34,
+      "mean_course_score": 73.74970588235294,
+      "official_passed": 22,
+      "course_full": 19,
+      "course_partial": 9,
+      "course_zero": 6
+    },
+    "at_least_100_rows": {
+      "tasks": 9,
+      "mean_course_score": 87.22222222222223,
+      "official_passed": 7,
+      "course_full": 6,
+      "course_partial": 3,
+      "course_zero": 0
+    }
+  }
+}

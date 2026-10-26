@@ -1,0 +1,242 @@
+[
+  {
+    "task_id": "task_10",
+    "question": "请按报告期从早到晚列出货币当局资产负债表中总资产金额非空的记录，返回报告期和总资产金额（单位：亿元）。金额按四舍五入保留至多 4 位小数，删除末尾多余的 0；整数金额保留 1 位小数。"
+  },
+  {
+    "task_id": "task_18",
+    "question": "请按资料中的记录顺序，列出有十年累计回报率记录的基金简称及十年累计回报率（%）。"
+  },
+  {
+    "task_id": "task_23",
+    "question": "According to the rights issue review dashboard shown in the video, in which years did the featured retail company conduct share placements, and what was the raised amount for each year?"
+  },
+  {
+    "task_id": "task_24",
+    "question": "根据视频中展示的评奖看板所定义的基金公司持续回报评选口径，统计该奖项的历年获奖记录总数。"
+  },
+  {
+    "task_id": "task_33",
+    "question": "请按基金代码升序列出各基金的基金代码、基金简称及今年以来回报率；同一基金出现不同代码时，以对外公示代码为准。请按“基金代码、基金简称、今年以来回报率(%)”三列返回。回报率按四舍五入保留至多 10 位小数，删除末尾多余的 0；整数保留 1 位小数。"
+  },
+  {
+    "task_id": "task_35",
+    "question": "根据文档，中国金融机构人民币信贷收支表中 2004 年已披露的单位存款/企业存款和财政性存款记录分别是多少？请按期末日期升序列出，金额单位为人民币元。"
+  },
+  {
+    "task_id": "task_43",
+    "question": "请按本周以来基金基准增长幅度从高到低列出排名前10的基金及其投资目标；若第10名增长幅度并列，保留所有并列基金，并列项按资料中的记录顺序输出。"
+  },
+  {
+    "task_id": "task_44",
+    "question": "What procedures did patient 025-44842 receive at the latest treatment timestamp in the record? Return all procedures at that timestamp in ascending treatment ID order."
+  },
+  {
+    "task_id": "task_48",
+    "question": "According to the cohort stratification boundary and report scope configuration shown in the video, what are the most frequently performed procedures for patients in the senior cohort that fall within the configured reporting range?"
+  },
+  {
+    "task_id": "task_58",
+    "question": "请按资料中的记录顺序，列出各地区、各报告期披露的地区生产总值（GDP）及第一、第二、第三产业增加值，单位为亿元；直接采用各项披露值，缺失项留空。地区使用完整行政区名称，报告期统一为 YYYY-MM-DD。"
+  },
+  {
+    "task_id": "task_85",
+    "question": "根据视频中展示的各公司A股流通股本（AFloats）记录，按流通股本从高到低取前5条记录，列出每条记录对应的公司简称。这里按记录而不是按公司去重；如果多条记录属于同一公司，请重复保留，并输出恰好5行。"
+  },
+  {
+    "task_id": "task_86",
+    "question": "在最新报告日，人民币新增贷款的当月金额和期末累计金额分别是多少？请同时给出报告日，金额按记录中的亿元口径原样列出。"
+  },
+  {
+    "task_id": "task_87",
+    "question": "For patient 031-3355, was the collection time of the blood, venipuncture culture linked to the current stay earlier than the admission time for that visit?"
+  },
+  {
+    "task_id": "task_102",
+    "question": "根据视频中展示的公募基金奖项记录，共有多少家不同的基金公司曾获得过奖项？"
+  },
+  {
+    "task_id": "task_103",
+    "question": "For the 2021 batch shown in the video, which companies announced A-share additional issuance proposals, and what were their stated purposes? Return each company's abbreviated name and corresponding issuance purpose in archive order."
+  },
+  {
+    "task_id": "task_111",
+    "question": "在当前资料中，哪些基金既能确定基金类别，又满足视频绩效看板所定义的设立以来年化回报准入线？请按基金类别统计数量。"
+  },
+  {
+    "task_id": "task_123",
+    "question": "请问发生过募集金额超过100亿的股票配售记录吗？总共有几次"
+  },
+  {
+    "task_id": "task_127",
+    "question": "What was the maximum recorded respiration value for patient 027-146876 on 2103-07-12?"
+  },
+  {
+    "task_id": "task_128",
+    "question": "Which distinct companies had at least one stock issuance underwritten by a single institution for more than 50 million shares? Return them in the order they first appear in the underwriting records."
+  },
+  {
+    "task_id": "task_129",
+    "question": "在已给出注册地信息的样本公司中，统计未流通A股股数超过2亿的股本结构变动记录数，并按注册省份分组"
+  },
+  {
+    "task_id": "task_133",
+    "question": "What is the full term for screening for diphtheria?"
+  },
+  {
+    "task_id": "task_140",
+    "question": "Do you have information on the number of listed companies registered in Shanxi Province?"
+  },
+  {
+    "task_id": "task_159",
+    "question": "According to the buyback review cycle defined in the video, how many share-repurchase announcement records were counted during that period?"
+  },
+  {
+    "task_id": "task_166",
+    "question": "How many fund managers have a QDII management scale exceeding RMB 20 billion?"
+  },
+  {
+    "task_id": "task_168",
+    "question": "Please list the reserve assets amounts displayed for the available records in the balance sheet of other deposit-taking corporations, following the record order shown in the document."
+  },
+  {
+    "task_id": "task_182",
+    "question": "For the funds that have archive notes, which ones are in the top 10 positions by monthly benchmark growth rate? Include every fund tied at the tenth-position cutoff, and give the investment objective stated in the archive notes."
+  },
+  {
+    "task_id": "task_184",
+    "question": "What are the funds and fund investment scopes with benchmark growth rate greater than 0 on the current day?"
+  },
+  {
+    "task_id": "task_196",
+    "question": "Among funds with a recorded initial subscription minimum, which funds have the lowest required amount? Return all ties."
+  },
+  {
+    "task_id": "task_199",
+    "question": "In the fund-manager tenure records, which current fund managers have total management tenure below 0.2 months? List their manager code, name, fund-advisor abbreviation, and total management tenure in months."
+  },
+  {
+    "task_id": "task_200",
+    "question": "List the companies with a free float ratio of 100%."
+  },
+  {
+    "task_id": "task_208",
+    "question": "Please list the available records that provide values for China’s wholesale and retail trade industry and the catering industry. Thank you!"
+  },
+  {
+    "task_id": "task_215",
+    "question": "在这份基金基准增长率资料里，按一年基金基准增长率从高到低排，前十名基金及其基金经理分别是谁？"
+  },
+  {
+    "task_id": "task_257",
+    "question": "嗨，能展示一下哪些基金获得过奖项吗，并列一下是谁颁发的"
+  },
+  {
+    "task_id": "task_259",
+    "question": "这批基金净值表现记录里，各基金简称对应的设立以来回报率分别是多少？"
+  },
+  {
+    "task_id": "task_263",
+    "question": "Find funds whose three-year benchmark growth rate is positive."
+  },
+  {
+    "task_id": "task_264",
+    "question": "Show me the pre-2000 currency and banking records where both net foreign assets and domestic credit are reported. Please include the date, and keep only one copy when the date and both values are exactly repeated."
+  },
+  {
+    "task_id": "task_267",
+    "question": "From the fund-manager performance analysis records, list the top 10 records with the highest annualized alpha coefficient. Include manager name, fund type, index cycle, and annualized alpha coefficient."
+  },
+  {
+    "task_id": "task_269",
+    "question": "What are the actual and expected number of shares allocated to each shareholder for 000423?"
+  },
+  {
+    "task_id": "task_279",
+    "question": "我想了解一下数据情况。持仓债券种类最多的基金和经理"
+  },
+  {
+    "task_id": "task_285",
+    "question": "统计一下科思股份有多少个交易日成交总金额超1亿元"
+  },
+  {
+    "task_id": "task_298",
+    "question": "How many companies in Jiangsu Province have a free float ratio of 100%?"
+  },
+  {
+    "task_id": "task_300",
+    "question": "根据视频中系统配置的本日基准增长率准入线，筛选满足条件的基金，并按本日基准增长率由高到低列出基金简称。"
+  },
+  {
+    "task_id": "task_312",
+    "question": "根据视频中货币当局资产负债表系统展示的总资产准入阈值，查询满足该准入条件的所有记录的外汇金额、货币黄金金额和其他国外资产。"
+  },
+  {
+    "task_id": "task_322",
+    "question": "哥，看下LOF基金本周以来基金基准增长率情况"
+  },
+  {
+    "task_id": "task_326",
+    "question": "我想了解一下，按公司主营业务所属行业口径，计算机、通信和其他电子设备制造业的上市公司有多少家？"
+  },
+  {
+    "task_id": "task_328",
+    "question": "按视频里那个纵向分析批次的口径，找出其中国外净资产和国内信贷都给出明确数值的记录，按记录截止日期列出来。"
+  },
+  {
+    "task_id": "task_329",
+    "question": "I would like to know the daily maximum amount of enteral formula volume/bolus amt (ml) that patient 033-22108 has received during their current hospital encounter?"
+  },
+  {
+    "task_id": "task_336",
+    "question": "Show the data and find the maximum and minimum values of total assets and total liabilities in the balance sheet of other depositary credit institutions."
+  },
+  {
+    "task_id": "task_337",
+    "question": "Siri, in the A-share seasoned new-issue records here, which stock abbreviations appear more than once?"
+  },
+  {
+    "task_id": "task_361",
+    "question": "在江苏省中，自由流通比重为100%的上市公司有多少家？"
+  },
+  {
+    "task_id": "task_362",
+    "question": "找下三年基金基准增长幅度为正的基金"
+  },
+  {
+    "task_id": "task_371",
+    "question": "Engineer Li is comparing funds. For each fund in the available net-value performance records, list the fund abbreviation and its return since inception."
+  },
+  {
+    "task_id": "task_378",
+    "question": "According to the industry sector scope defined in the video, how many companies in that sector have submitted A-share IPO declaration filings?"
+  },
+  {
+    "task_id": "task_380",
+    "question": "Find all non-Chinese fund managers."
+  },
+  {
+    "task_id": "task_382",
+    "question": "嘿，计算出哪种基金运作方式对应的日回报率均值最大"
+  },
+  {
+    "task_id": "task_389",
+    "question": "In the balance sheet data of other depository corporations, according to the screening threshold defined in the video, list the end dates along with the corresponding claims on government and claims on central bank amounts for all qualifying records, ordered by time. If the central-bank claim amount is not disclosed for a qualifying record, leave that amount blank."
+  },
+  {
+    "task_id": "task_391",
+    "question": "Show the latest record in the balance sheet of other deposit-taking companies where the total assets exceed 50 million, and list the specific amounts of total assets, total liabilities, net foreign assets, and foreign liabilities."
+  },
+  {
+    "task_id": "task_398",
+    "question": "According to the circulating-share float threshold and grouping depth configured in the video, how many company records meet that threshold, grouped by second-level industry? List each second-level industry and its record count."
+  },
+  {
+    "task_id": "task_402",
+    "question": "Among the 2021 stockholding records, which companies have a disclosed trust-company holding proportion? List the company abbreviation, reporting date, and proportion value from highest to lowest."
+  },
+  {
+    "task_id": "task_409",
+    "question": "For patient 008-186's first ICU stay, how many calendar days apart are the ICU admission date and ICU discharge date?"
+  }
+]
