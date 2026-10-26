@@ -2,6 +2,8 @@
 
 当前baseline的完整复盘见 [baseline-evaluate/README.md](baseline-evaluate/README.md)，包含评分归因、逐题分布、代码原因、6组图表及离线交互页面。
 
+后续修改方案见 [optimize-plan/Baseline优化修改总方案.md](optimize-plan/Baseline优化修改总方案.md)，按开发成本整理问题、代码位置、结构设计、验收和收益；目前仅规划，尚未实施。
+
 - [课程原始PPT](数据挖掘大作业选题-KDD%20CUP%202026.pptx)：项目背景、选题与课程要求，下载后用PowerPoint或兼容软件阅读。
 - [基础环境搭建计划](基础环境搭建计划.md)：项目启动时制定的环境计划。
 - [项目梳理与环境部署指南](项目梳理与环境部署指南.md)：初期项目分析和部署记录。
