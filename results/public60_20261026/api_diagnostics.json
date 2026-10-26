@@ -1,0 +1,41 @@
+{
+  "listed_models": [
+    "ecnu-max",
+    "ecnu-plus",
+    "ecnu-embedding-small",
+    "ecnu-embedding-vl",
+    "ecnu-rerank",
+    "ecnu-rerank-vl",
+    "ecnu-image",
+    "ecnu-tts"
+  ],
+  "tests": [
+    {
+      "model": "ecnu-plus",
+      "input": "text",
+      "status": 200,
+      "seconds": 0.27,
+      "response_model": "qwen3.8-flash"
+    },
+    {
+      "model": "ecnu-plus",
+      "input": "png_frame",
+      "status": 500,
+      "seconds": 0.14
+    },
+    {
+      "model": "ecnu-max",
+      "input": "text",
+      "status": 200,
+      "seconds": 0.62,
+      "response_model": "deepseek-v4-flash"
+    },
+    {
+      "model": "ecnu-max",
+      "input": "png_frame",
+      "status": 200,
+      "seconds": 0.56,
+      "response_model": "deepseek-v4-flash"
+    }
+  ]
+}

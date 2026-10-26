@@ -1,0 +1,187 @@
+{
+  "scope": "public60_mixed_model_repair_with_retained_predictions",
+  "course_lambda": 0.1,
+  "valid_predictions": 60,
+  "final_course_score_100": 78.90266666666666,
+  "reference_baseline_100": 75.6387,
+  "gain_over_reference_points": 3.2639666666666614,
+  "relative_gain_over_reference_percent": 4.315207250609365,
+  "prior_course_score_100": 42.097166666666666,
+  "gain_over_incomplete_run_points": 36.805499999999995,
+  "official_task_accuracy": 0.6666666666666666,
+  "overall": {
+    "tasks": 60,
+    "mean_course_score_100": 78.90266666666666,
+    "course_full": 36,
+    "course_partial": 15,
+    "course_zero": 9,
+    "official_passed": 40
+  },
+  "groups": {
+    "retained_plus_33": {
+      "tasks": 33,
+      "mean_course_score_100": 76.54030303030302,
+      "course_full": 19,
+      "course_partial": 9,
+      "course_zero": 5,
+      "official_passed": 21
+    },
+    "new_max_27": {
+      "tasks": 27,
+      "mean_course_score_100": 81.79,
+      "course_full": 17,
+      "course_partial": 6,
+      "course_zero": 4,
+      "official_passed": 19
+    },
+    "text_32": {
+      "tasks": 32,
+      "mean_course_score_100": 75.8071875,
+      "course_full": 18,
+      "course_partial": 9,
+      "course_zero": 5,
+      "official_passed": 20
+    },
+    "video_28": {
+      "tasks": 28,
+      "mean_course_score_100": 82.44035714285715,
+      "course_full": 18,
+      "course_partial": 6,
+      "course_zero": 4,
+      "official_passed": 20
+    }
+  },
+  "original_33_prediction_hashes_unchanged": true,
+  "course_zero_tasks": [
+    "task_18",
+    "task_85",
+    "task_102",
+    "task_123",
+    "task_129",
+    "task_182",
+    "task_196",
+    "task_300",
+    "task_380"
+  ],
+  "official_first_failure_counts": {
+    "row_count_mismatch": 3,
+    "column_count_mismatch": 11,
+    "relation_mismatch": 6
+  },
+  "scorer_disagreement_tasks": [
+    "task_10",
+    "task_86",
+    "task_328",
+    "task_389"
+  ],
+  "date_format_theoretical_gain_points": 2.750166666666667,
+  "time": {
+    "first_full_attempt_started_at": "2026-10-25T17:36:09+08:00",
+    "final_evaluation_finished_at": "2026-10-26T04:27:10.925039+08:00",
+    "overall_calendar_seconds_including_interruptions": 39061.925039,
+    "prior_plus_failed_27_wall_seconds": 5263.528807,
+    "max_pilot_wall_seconds": 183.557981,
+    "max_repair_26_wall_seconds": 4288.596391,
+    "max_repair_tasks_per_hour": 21.825322661845238,
+    "max_repair_wall_seconds_per_completed_task": 164.94601503846155,
+    "max_repair_mean_task_latency_seconds": 642.9757692307692,
+    "max_repair_median_task_latency_seconds": 491.1335,
+    "mean_active_task_slots_including_wait": 3.8980982297804667,
+    "stage_task_seconds_including_queue_and_overlap": {
+      "copytree": 1.0130000000000003,
+      "video": 5805.119,
+      "video_result": 964.6809999999999,
+      "doc_relevance": 716.9180000000002,
+      "doc_prepare": 5633.552,
+      "scaffold": 16.406999999999996,
+      "table_relevance": 881.0210000000001,
+      "build_agent": 0.5940000000000001,
+      "agent_run.attempt1": 2695.8570000000004
+    },
+    "inner_video_stage_seconds": {
+      "asr": {
+        "samples": 26,
+        "sum_seconds": 1965.27,
+        "mean_seconds": 75.58730769230769
+      },
+      "frame_layout": {
+        "samples": 26,
+        "sum_seconds": 706.16,
+        "mean_seconds": 27.16
+      },
+      "frame_extraction": {
+        "samples": 26,
+        "sum_seconds": 35.04,
+        "mean_seconds": 1.3476923076923077
+      }
+    }
+  },
+  "api": {
+    "prior_failed_plus_27_response_status": {
+      "200": 996,
+      "500": 1841,
+      "504": 2
+    },
+    "max_repair_26_response_status": {
+      "200": 1575,
+      "429": 1
+    },
+    "max_repair_26_usage": {
+      "prompt_tokens": 23727163,
+      "completion_tokens": 771188,
+      "total_tokens": 24498351,
+      "cached_prompt_tokens": 15804928
+    },
+    "max_repair_http_success_percent": 99.93654822335026
+  },
+  "slowest_repair_tasks": [
+    {
+      "task_id": "task_111",
+      "wall_seconds": 1952.654,
+      "course_score_100": 100.0
+    },
+    {
+      "task_id": "task_128",
+      "wall_seconds": 1554.062,
+      "course_score_100": 100.0
+    },
+    {
+      "task_id": "task_298",
+      "wall_seconds": 1456.689,
+      "course_score_100": 100.0
+    },
+    {
+      "task_id": "task_300",
+      "wall_seconds": 1033.212,
+      "course_score_100": 0.0
+    },
+    {
+      "task_id": "task_199",
+      "wall_seconds": 919.215,
+      "course_score_100": 100.0
+    },
+    {
+      "task_id": "task_389",
+      "wall_seconds": 759.669,
+      "course_score_100": 63.33
+    },
+    {
+      "task_id": "task_328",
+      "wall_seconds": 736.526,
+      "course_score_100": 63.33
+    },
+    {
+      "task_id": "task_402",
+      "wall_seconds": 727.912,
+      "course_score_100": 100.0
+    }
+  ],
+  "limitations": [
+    "Single public60 run; no held-out set or repeated seeds",
+    "Different tasks and settings across model phases; no causal model or concurrency speedup claim",
+    "Calendar span includes debugging, failed calls and WSL interruptions",
+    "Task/stage durations overlap and include queue waits; they are not additive wall-clock fractions",
+    "Only the latest 26-task repair time is directly measured; not a cold full60 runtime",
+    "Per-task CSV timing is the last available attempt, not total lifetime retries"
+  ]
+}

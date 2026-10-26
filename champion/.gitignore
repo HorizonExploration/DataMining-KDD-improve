@@ -1,0 +1,68 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+
+# ---- Virtual environments ----
+.venv/
+venv/
+env/
+ENV/
+
+# ---- uv ----
+# uv.lock は再現性のため通常はコミットする（除外しない）
+.uv/
+
+# ---- Testing / coverage / type checkers ----
+.pytest_cache/
+.ruff_cache/
+.pyrefly/
+.mypy_cache/
+.coverage
+.coverage.*
+htmlcov/
+.cache/
+
+# ---- IDE / editor ----
+.idea/
+.vscode/
+*.iml
+*.swp
+*.swo
+*~
+
+# ---- OS ----
+.DS_Store
+Thumbs.db
+
+# ---- ASR / ML model weights (large binaries) ----
+asr_models/
+*.bin
+*.pt
+*.pth
+*.onnx
+*.gguf
+*.safetensors
+
+# ---- Data / outputs / runtime artifacts ----
+data/
+outputs/
+output/
+results/
+runs/
+logs/
+*.log
+tmp/
+.tmp/
+
+# ---- Secrets / local config ----
+.env
+.env.*
+*.local

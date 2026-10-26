@@ -1,0 +1,41 @@
+# Credentials and machine-specific configuration
+.env
+.env.*
+!.env.example
+!.env.deepseek.example
+*.pem
+*.key
+
+# Downloadable assets and runtime outputs
+/downloads/
+/cache/
+/data/
+/runs/
+/tools/
+/champion/asr_models/
+**/.venv/
+**/venv/
+**/__pycache__/
+*.py[cod]
+*.log
+*.part
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Local deployment records, original course materials, and snapshots
+/.local/
+/intro-plan/
+/docs/*.json
+/docs/*.txt
+/docs/*.patch
+/docs/environment-check.md
+/docs/当前项目检查与API提速分析.md
+/docs/文件结构与清理清单.md
+
+# Editor / operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

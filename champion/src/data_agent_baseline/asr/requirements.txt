@@ -1,0 +1,11 @@
+# 远程 GPU faster-whisper 服务依赖
+# 安装：pip install -r requirements.txt
+# 注意：GPU 上需 CUDA 版 ctranslate2（faster-whisper 会自动拉取对应 wheel）；
+# 另需机器上装好 NVIDIA 驱动 + cuDNN（CTranslate2 float16 推理依赖）。
+faster-whisper==1.2.1
+ctranslate2==4.7.2
+av==17.0.1
+fastapi>=0.115
+uvicorn[standard]>=0.30
+python-multipart>=0.0.9
+numpy>=1.24

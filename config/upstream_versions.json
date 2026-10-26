@@ -1,0 +1,10 @@
+{
+  "champion": {
+    "repository": "https://github.com/zhezh/kddcup2026_champion.git",
+    "commit": "bdc874fc4260e3565ae0dce041728fdf5b376709"
+  },
+  "DataSpace": {
+    "repository": "https://github.com/HKUSTDial/DataSpace.git",
+    "commit": "6491caa4c70cc06cacb6103ba73cefb00746abfe"
+  }
+}
