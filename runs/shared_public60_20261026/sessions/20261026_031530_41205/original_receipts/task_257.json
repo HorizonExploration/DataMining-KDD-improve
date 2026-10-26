@@ -1,0 +1,77 @@
+{
+  "completed_at": "2026-10-25T22:09:41.540438+08:00",
+  "prediction_sha256": "338673ad1c44663862f8671fe96814f1898a80c0fb4d71bd086c068218a27f8d",
+  "run_identity": "5688908ecde3d0106f5380bd137a4bdaab5d903c8c76c66e8a320b13341da00f",
+  "scheduling_migration": {
+    "change": {
+      "MAX_PARALLEL": [
+        "4",
+        "6"
+      ],
+      "MODEL_MAX_CONCURRENCY": [
+        "4",
+        "5"
+      ]
+    },
+    "original_receipt": {
+      "completed_at": "2026-10-25T22:09:41.540438+08:00",
+      "prediction_sha256": "338673ad1c44663862f8671fe96814f1898a80c0fb4d71bd086c068218a27f8d",
+      "run_identity": "1defc47477e0fb16818e611a8df46ce72945c70356d98efdb4d244075ec63e8f",
+      "scheduling_migration": {
+        "change": {
+          "MAX_PARALLEL": [
+            "2",
+            "4"
+          ]
+        },
+        "original_receipt": {
+          "completed_at": "2026-10-25T22:09:41.540438+08:00",
+          "prediction_sha256": "338673ad1c44663862f8671fe96814f1898a80c0fb4d71bd086c068218a27f8d",
+          "run_identity": "a2b6ee2588bb65cdecfd7e481476ad986967378f0e5681ef421804c201d35582",
+          "success": true
+        },
+        "reviewed_source_changes": {
+          "champion/src/data_agent_baseline/tools_v2/speed_runtime.py": {
+            "after": "3b07f65a0f46f7e08e03b35d073c8fb18d45f74049a2fed7786374c8ca69f558",
+            "before": null
+          },
+          "champion/src/data_agent_baseline/video/asr_init_prompt.py": {
+            "after": "c67255367a031da8ed1ea8ad48f85ba48a6b5c0852dcbbed11d438a8a971ee7b",
+            "before": "2a6d30fb6239f61198d3e300bc4106f2f419db727306165d6f1a373cf9591509"
+          },
+          "champion/src/data_agent_baseline/video/frame_html_tool.py": {
+            "after": "593c5f6bbb50efdb4789d723d941386337b6cf0368a1e7c75168e247ad6140e4",
+            "before": "8566d74ce090a01b6bbe16bb9be7c178093605652c57879a46ca651a00090e46"
+          },
+          "champion/src/data_agent_baseline/zz_agent_v2.py": {
+            "after": "5b60c8765fc3acc1b1d34017614e8c9587ada704278f9a433628abd6bd6ee24c",
+            "before": "6ef5c7539505280f18f4f29bb142c4425add84cfd8bdf12c26f9ba6d9eb4bd4a"
+          }
+        },
+        "source_run": "runs/baseline_20261025_193118_83381"
+      },
+      "success": true
+    },
+    "reviewed_source_changes": {
+      "champion/src/data_agent_baseline/tools_v2/speed_runtime.py": {
+        "after": "8e6ad0c5d4aab24940863f0239a31e684d91728cff9696d26d60824dd408189d",
+        "before": "3b07f65a0f46f7e08e03b35d073c8fb18d45f74049a2fed7786374c8ca69f558"
+      }
+    },
+    "source_run": "runs/baseline_20261025_221636_33313"
+  },
+  "scheduling_migrations": [
+    {
+      "MAX_PARALLEL": [
+        "6",
+        "4"
+      ],
+      "changed_at": "2026-10-26T01:05:39.608367+08:00",
+      "from_identity": "3c21bc50c4efb87755363d671e3f6fb21d1241a42888791cb63df054b2bb5f9d",
+      "original_receipt": "runs/baseline_full_20261025/sessions/20261026_010539_4549/original_receipts/task_257.json",
+      "source_manifest": "runs/baseline_full_20261025/sessions/20261026_010539_4549/run_manifest.json",
+      "to_identity": "5688908ecde3d0106f5380bd137a4bdaab5d903c8c76c66e8a320b13341da00f"
+    }
+  ],
+  "success": true
+}

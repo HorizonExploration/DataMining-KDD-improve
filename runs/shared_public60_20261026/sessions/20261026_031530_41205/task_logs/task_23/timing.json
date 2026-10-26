@@ -1,0 +1,19 @@
+{
+  "task_id": "task_23",
+  "total_wall_s": 829.998,
+  "stages": {
+    "copytree": 0.051,
+    "video": 98.815,
+    "video_result": 19.683,
+    "doc_relevance": 16.255,
+    "doc_prepare": 617.004,
+    "scaffold": 0.74,
+    "table_relevance": 13.936,
+    "build_agent": 0.01,
+    "agent_run.attempt1": 11.003,
+    "agent_run.attempt2": 11.245,
+    "agent_run.attempt3": 12.124,
+    "agent_run.attempt4": 4.256,
+    "agent_run.attempt5": 15.066
+  }
+}

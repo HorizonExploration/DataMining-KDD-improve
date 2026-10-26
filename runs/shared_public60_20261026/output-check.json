@@ -1,0 +1,555 @@
+{
+  "expected": 60,
+  "valid_predictions": 60,
+  "tasks": [
+    {
+      "task_id": "task_10",
+      "valid": true,
+      "rows": 242,
+      "columns": [
+        "report_date",
+        "total_assets"
+      ]
+    },
+    {
+      "task_id": "task_18",
+      "valid": true,
+      "rows": 4,
+      "columns": [
+        "secu_abbr",
+        "return_10y_final"
+      ]
+    },
+    {
+      "task_id": "task_23",
+      "valid": true,
+      "rows": 2,
+      "columns": [
+        "配股年度",
+        "募集资金总额(元)"
+      ]
+    },
+    {
+      "task_id": "task_24",
+      "valid": true,
+      "rows": 1,
+      "columns": [
+        "award_record_count"
+      ]
+    },
+    {
+      "task_id": "task_33",
+      "valid": true,
+      "rows": 12962,
+      "columns": [
+        "基金代码",
+        "基金简称",
+        "今年以来回报率(%)"
+      ]
+    },
+    {
+      "task_id": "task_35",
+      "valid": true,
+      "rows": 3,
+      "columns": [
+        "cutoff_date",
+        "corporate_deposits",
+        "fiscal_deposits"
+      ]
+    },
+    {
+      "task_id": "task_43",
+      "valid": true,
+      "rows": 12,
+      "columns": [
+        "secuabbr",
+        "investtarget"
+      ]
+    },
+    {
+      "task_id": "task_44",
+      "valid": true,
+      "rows": 4,
+      "columns": [
+        "treatmentname"
+      ]
+    },
+    {
+      "task_id": "task_48",
+      "valid": true,
+      "rows": 3,
+      "columns": [
+        "procedure_name",
+        "occurrence_count"
+      ]
+    },
+    {
+      "task_id": "task_58",
+      "valid": true,
+      "rows": 50,
+      "columns": [
+        "region_name",
+        "period_end_date",
+        "gdp_total",
+        "primary_industry_value",
+        "secondary_industry_value",
+        "tertiary_industry_value"
+      ]
+    },
+    {
+      "task_id": "task_85",
+      "valid": true,
+      "rows": 5,
+      "columns": [
+        "ChiNameAbbr"
+      ]
+    },
+    {
+      "task_id": "task_86",
+      "valid": true,
+      "rows": 1,
+      "columns": [
+        "enddate",
+        "monthly_amount",
+        "cumulative_amount"
+      ]
+    },
+    {
+      "task_id": "task_87",
+      "valid": true,
+      "rows": 1,
+      "columns": [
+        "is_earlier"
+      ]
+    },
+    {
+      "task_id": "task_102",
+      "valid": true,
+      "rows": 1,
+      "columns": [
+        "company_count"
+      ]
+    },
+    {
+      "task_id": "task_103",
+      "valid": true,
+      "rows": 23,
+      "columns": [
+        "中文名称缩写",
+        "增发目的"
+      ]
+    },
+    {
+      "task_id": "task_111",
+      "valid": true,
+      "rows": 1,
+      "columns": [
+        "FundType",
+        "fund_count"
+      ]
+    },
+    {
+      "task_id": "task_123",
+      "valid": true,
+      "rows": 4,
+      "columns": [
+        "record_id",
+        "secu_code",
+        "secu_abbr",
+        "actual_raise_amount"
+      ]
+    },
+    {
+      "task_id": "task_127",
+      "valid": true,
+      "rows": 1,
+      "columns": [
+        "max_respiration"
+      ]
+    },
+    {
+      "task_id": "task_128",
+      "valid": true,
+      "rows": 2,
+      "columns": [
+        "ChiNameAbbr"
+      ]
+    },
+    {
+      "task_id": "task_129",
+      "valid": true,
+      "rows": 9,
+      "columns": [
+        "reg_province",
+        "record_count"
+      ]
+    },
+    {
+      "task_id": "task_133",
+      "valid": true,
+      "rows": 1,
+      "columns": [
+        "ICD9_CODE",
+        "LONG_TITLE"
+      ]
+    },
+    {
+      "task_id": "task_140",
+      "valid": true,
+      "rows": 1,
+      "columns": [
+        "NumberedListedCompanies"
+      ]
+    },
+    {
+      "task_id": "task_159",
+      "valid": true,
+      "rows": 1,
+      "columns": [
+        "record_count"
+      ]
+    },
+    {
+      "task_id": "task_166",
+      "valid": true,
+      "rows": 1,
+      "columns": [
+        "NumberOfFundManagers"
+      ]
+    },
+    {
+      "task_id": "task_168",
+      "valid": true,
+      "rows": 30,
+      "columns": [
+        "reserve_assets_final"
+      ]
+    },
+    {
+      "task_id": "task_182",
+      "valid": true,
+      "rows": 12,
+      "columns": [
+        "fund_abbr",
+        "investment_objective"
+      ]
+    },
+    {
+      "task_id": "task_184",
+      "valid": true,
+      "rows": 374,
+      "columns": [
+        "fund_abbr",
+        "fund_investment_scope"
+      ]
+    },
+    {
+      "task_id": "task_196",
+      "valid": true,
+      "rows": 47,
+      "columns": [
+        "fund_name",
+        "fund_short_name",
+        "security_code",
+        "min_subscription_amount"
+      ]
+    },
+    {
+      "task_id": "task_199",
+      "valid": true,
+      "rows": 2,
+      "columns": [
+        "基金经理代码",
+        "基金经理姓名",
+        "基金管理人简称",
+        "总计管理年限(月)"
+      ]
+    },
+    {
+      "task_id": "task_200",
+      "valid": true,
+      "rows": 9,
+      "columns": [
+        "CompanyCode",
+        "ChiName",
+        "ChiNameAbbr",
+        "SecuCode"
+      ]
+    },
+    {
+      "task_id": "task_208",
+      "valid": true,
+      "rows": 1,
+      "columns": [
+        "record_id",
+        "wholesale_retail_sales",
+        "catering_sales"
+      ]
+    },
+    {
+      "task_id": "task_215",
+      "valid": true,
+      "rows": 10,
+      "columns": [
+        "SecuAbbr",
+        "Name"
+      ]
+    },
+    {
+      "task_id": "task_257",
+      "valid": true,
+      "rows": 17,
+      "columns": [
+        "fund_name",
+        "rating_agency_name"
+      ]
+    },
+    {
+      "task_id": "task_259",
+      "valid": true,
+      "rows": 12962,
+      "columns": [
+        "ChiNameAbbr",
+        "RRSinceStart"
+      ]
+    },
+    {
+      "task_id": "task_263",
+      "valid": true,
+      "rows": 306,
+      "columns": [
+        "基金简称"
+      ]
+    },
+    {
+      "task_id": "task_264",
+      "valid": true,
+      "rows": 35,
+      "columns": [
+        "EndDate",
+        "NetAbroadAssets",
+        "DomesticLoans"
+      ]
+    },
+    {
+      "task_id": "task_267",
+      "valid": true,
+      "rows": 10,
+      "columns": [
+        "ChineseName",
+        "FundTypeName",
+        "IndexCycle",
+        "AnnAlphaCoef"
+      ]
+    },
+    {
+      "task_id": "task_269",
+      "valid": true,
+      "rows": 2,
+      "columns": [
+        "SHName",
+        "OughtShares",
+        "ActualShares"
+      ]
+    },
+    {
+      "task_id": "task_279",
+      "valid": true,
+      "rows": 1,
+      "columns": [
+        "fund_abbr",
+        "bond_variety_cnt",
+        "manager_name"
+      ]
+    },
+    {
+      "task_id": "task_285",
+      "valid": true,
+      "rows": 1,
+      "columns": [
+        "trade_days_amount_over_100m"
+      ]
+    },
+    {
+      "task_id": "task_298",
+      "valid": true,
+      "rows": 1,
+      "columns": [
+        "company_count"
+      ]
+    },
+    {
+      "task_id": "task_300",
+      "valid": true,
+      "rows": 49,
+      "columns": [
+        "trade_abbr",
+        "dailybenchgr"
+      ]
+    },
+    {
+      "task_id": "task_312",
+      "valid": true,
+      "rows": 242,
+      "columns": [
+        "Forex",
+        "MoneyAndGold",
+        "OtherForeignAssets"
+      ]
+    },
+    {
+      "task_id": "task_322",
+      "valid": true,
+      "rows": 331,
+      "columns": [
+        "SecuCode",
+        "SecuAbbr",
+        "ChiNameAbbr",
+        "BenchGRForThisWeek"
+      ]
+    },
+    {
+      "task_id": "task_326",
+      "valid": true,
+      "rows": 1,
+      "columns": [
+        "company_cnt"
+      ]
+    },
+    {
+      "task_id": "task_328",
+      "valid": true,
+      "rows": 4,
+      "columns": [
+        "enddate",
+        "netabroadassets",
+        "domesticloans"
+      ]
+    },
+    {
+      "task_id": "task_329",
+      "valid": true,
+      "rows": 1,
+      "columns": [
+        "daily_max_enteral_formula_ml"
+      ]
+    },
+    {
+      "task_id": "task_336",
+      "valid": true,
+      "rows": 1,
+      "columns": [
+        "max_total_assets",
+        "min_total_assets",
+        "max_total_liabilities",
+        "min_total_liabilities"
+      ]
+    },
+    {
+      "task_id": "task_337",
+      "valid": true,
+      "rows": 1,
+      "columns": [
+        "fund_abbr"
+      ]
+    },
+    {
+      "task_id": "task_361",
+      "valid": true,
+      "rows": 1,
+      "columns": [
+        "company_count"
+      ]
+    },
+    {
+      "task_id": "task_362",
+      "valid": true,
+      "rows": 306,
+      "columns": [
+        "SecuAbbr"
+      ]
+    },
+    {
+      "task_id": "task_371",
+      "valid": true,
+      "rows": 12962,
+      "columns": [
+        "SecuAbbr",
+        "RRSinceStart"
+      ]
+    },
+    {
+      "task_id": "task_378",
+      "valid": true,
+      "rows": 1,
+      "columns": [
+        "company_count"
+      ]
+    },
+    {
+      "task_id": "task_380",
+      "valid": true,
+      "rows": 4,
+      "columns": [
+        "Name"
+      ]
+    },
+    {
+      "task_id": "task_382",
+      "valid": true,
+      "rows": 1,
+      "columns": [
+        "FundTypeName",
+        "WeightedAvgReturn"
+      ]
+    },
+    {
+      "task_id": "task_389",
+      "valid": true,
+      "rows": 50,
+      "columns": [
+        "enddate",
+        "claimsongovernment",
+        "claimsoncentralbank"
+      ]
+    },
+    {
+      "task_id": "task_391",
+      "valid": true,
+      "rows": 1,
+      "columns": [
+        "total_assets",
+        "total_liabilities",
+        "net_foreign_assets",
+        "foreign_liabilities"
+      ]
+    },
+    {
+      "task_id": "task_398",
+      "valid": true,
+      "rows": 18,
+      "columns": [
+        "industry_level2",
+        "record_count"
+      ]
+    },
+    {
+      "task_id": "task_402",
+      "valid": true,
+      "rows": 1,
+      "columns": [
+        "secu_abbr",
+        "snapshot_date_final",
+        "trust_companies_hold_prop_a"
+      ]
+    },
+    {
+      "task_id": "task_409",
+      "valid": true,
+      "rows": 1,
+      "columns": [
+        "days_apart"
+      ]
+    }
+  ]
+}

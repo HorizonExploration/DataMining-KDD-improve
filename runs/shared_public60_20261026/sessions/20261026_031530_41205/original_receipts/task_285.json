@@ -1,0 +1,44 @@
+{
+  "completed_at": "2026-10-25T22:41:46.705358+08:00",
+  "prediction_sha256": "c5082c62a20637de389111a322ddf67aff1b0dab70090a0517f307330f1ee71b",
+  "run_identity": "5688908ecde3d0106f5380bd137a4bdaab5d903c8c76c66e8a320b13341da00f",
+  "scheduling_migration": {
+    "change": {
+      "MAX_PARALLEL": [
+        "4",
+        "6"
+      ],
+      "MODEL_MAX_CONCURRENCY": [
+        "4",
+        "5"
+      ]
+    },
+    "original_receipt": {
+      "completed_at": "2026-10-25T22:41:46.705358+08:00",
+      "prediction_sha256": "c5082c62a20637de389111a322ddf67aff1b0dab70090a0517f307330f1ee71b",
+      "run_identity": "1defc47477e0fb16818e611a8df46ce72945c70356d98efdb4d244075ec63e8f",
+      "success": true
+    },
+    "reviewed_source_changes": {
+      "champion/src/data_agent_baseline/tools_v2/speed_runtime.py": {
+        "after": "8e6ad0c5d4aab24940863f0239a31e684d91728cff9696d26d60824dd408189d",
+        "before": "3b07f65a0f46f7e08e03b35d073c8fb18d45f74049a2fed7786374c8ca69f558"
+      }
+    },
+    "source_run": "runs/baseline_20261025_221636_33313"
+  },
+  "scheduling_migrations": [
+    {
+      "MAX_PARALLEL": [
+        "6",
+        "4"
+      ],
+      "changed_at": "2026-10-26T01:05:39.608367+08:00",
+      "from_identity": "3c21bc50c4efb87755363d671e3f6fb21d1241a42888791cb63df054b2bb5f9d",
+      "original_receipt": "runs/baseline_full_20261025/sessions/20261026_010539_4549/original_receipts/task_285.json",
+      "source_manifest": "runs/baseline_full_20261025/sessions/20261026_010539_4549/run_manifest.json",
+      "to_identity": "5688908ecde3d0106f5380bd137a4bdaab5d903c8c76c66e8a320b13341da00f"
+    }
+  ],
+  "success": true
+}

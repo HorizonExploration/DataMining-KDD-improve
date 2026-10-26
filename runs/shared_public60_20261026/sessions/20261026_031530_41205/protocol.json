@@ -1,0 +1,33 @@
+{
+  "protocol": "public60_recorded_adaptive_scheduling_variant",
+  "parent_run": "runs/baseline_20261025_221636_33313",
+  "task_parallel": 6,
+  "configured_request_ceiling": 5,
+  "adaptive_request_control": "429 lowers concurrency and adds shared cooldown; recover one slot per successful 60s",
+  "local_video_jobs": 1,
+  "reused_tasks": [
+    "task_10",
+    "task_18",
+    "task_103",
+    "task_127",
+    "task_129",
+    "task_140",
+    "task_166",
+    "task_168",
+    "task_182",
+    "task_196",
+    "task_200",
+    "task_208",
+    "task_257",
+    "task_259",
+    "task_264",
+    "task_267",
+    "task_285",
+    "task_322",
+    "task_326",
+    "task_329"
+  ],
+  "all_tasks_retained": true,
+  "models_prompts_and_images_preserved": true,
+  "total_timing_policy": "include all parent and initialization runs"
+}

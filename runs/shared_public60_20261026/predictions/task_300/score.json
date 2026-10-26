@@ -1,0 +1,12 @@
+{
+  "gold_csv": "data/DataSpace-Benchmark/output/task_300/gold.csv",
+  "pred_csv": "runs/baseline_full_20261025/predictions/task_300/prediction.csv",
+  "score": 0.0,
+  "recall": 0.0,
+  "matched_cols": 0,
+  "gold_cols": 1,
+  "pred_cols": 2,
+  "extra_cols": 2,
+  "error": null,
+  "task_id": "task_300"
+}

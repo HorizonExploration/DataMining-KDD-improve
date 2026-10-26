@@ -13,3 +13,5 @@ DataSpace 的 MIT License 与引用信息保留在 `DataSpace/LICENSE`、`DataSp
 本项目新增的独立模块包括 `artifact_cache.py`、`model_http.py`、`run_state.py`、`speed_runtime.py`，以及顶层部署、检查、续跑、路由测试和分析脚本。对上游主循环、模型配置、文档准备和视频处理的修改在源码中保留；架构与实验贡献见 `docs/ARCHITECTURE.md`。
 
 根目录 LICENSE 的授权范围是本项目新增的独立文件与文档，不覆盖第三方原有代码或数据。公开报告中的78.90分是本课程公开60题实验结果，不是上游原仓库或国际比赛全题集的成绩。
+
+`intro-plan/` 中的原始课程PPT版权归原作者所有，不适用本项目MIT许可。初期部署文档与课件分开保留。`runs/shared_public60_20261026/` 包含实际模型预测、生成的求解代码和来源记录；其中的第三方材料不因归档而改变原有权利归属。原始数据集、gold和模型权重仍由使用者从准备脚本指定来源下载。

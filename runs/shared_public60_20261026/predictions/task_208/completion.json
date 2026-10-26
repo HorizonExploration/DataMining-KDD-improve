@@ -1,0 +1,135 @@
+{
+  "completed_at": "2026-10-25T21:44:17.572743+08:00",
+  "experiment_migrations": [
+    {
+      "MAX_PARALLEL": [
+        "4",
+        "4"
+      ],
+      "changed_at": "2026-10-26T03:15:30.753374+08:00",
+      "from_identity": "5688908ecde3d0106f5380bd137a4bdaab5d903c8c76c66e8a320b13341da00f",
+      "original_receipt": "runs/baseline_full_20261025/sessions/20261026_031530_41205/original_receipts/task_208.json",
+      "reviewed_routing_change": {
+        "configuration_changes": {
+          "MODEL_MAX_CONCURRENCY": {
+            "after": "2",
+            "before": "5"
+          },
+          "MODEL_SOLVER_THINKING": {
+            "after": "disabled",
+            "before": "default"
+          },
+          "MODEL_THINKING_FORMAT": {
+            "after": "ecnu",
+            "before": "legacy"
+          },
+          "MODEL_VIDEO_NAME": {
+            "after": "ecnu-max",
+            "before": null
+          }
+        },
+        "diagnostic": "docs/ecnu-models-multimodal-probe.json",
+        "pilot": "runs/baseline_full_20261025/model_trials/ecnu_max_20261026_031112_40106",
+        "policy": "video input -> ecnu-max; text-only input -> ecnu-plus; preserve 33 prior completed predictions and import validated max pilot",
+        "source_changes": {
+          "champion/src/data_agent_baseline/tools_v2/general_tools.py": {
+            "after": "a36553a99e55771edbe9f908f4084fb4f57e8722363db1a6cd7a861c6e4308e1",
+            "before": "8bf7a4e683eb4597881cda763c5642bf6b46124444cb0907ed8bc7b285770f5b"
+          },
+          "champion/src/data_agent_baseline/tools_v2/model_http.py": {
+            "after": "14c44b126d581f9249a519d7587034833d0680a0cdbf065f832e1c6636a52a05",
+            "before": "192d90d52186e09011f11af01c05a131fd32fb2515df56434f1ed90a3566e964"
+          },
+          "champion/src/data_agent_baseline/tools_v2/run_state.py": {
+            "after": "42a4fdd7375e6df29d2d4ce6f894fdf2644b6524251930a4ae19e71207698a2f",
+            "before": "fad9baa9891d1ee70b671b3542b068a65b75c6ddf5ba0692900a349b4330c656"
+          },
+          "champion/src/data_agent_baseline/video/frame_html_tool.py": {
+            "after": "0228052dac0fc882d8822cc0a04943fc6f2b7a33a19bd4517964175c426e2d75",
+            "before": "593c5f6bbb50efdb4789d723d941386337b6cf0368a1e7c75168e247ad6140e4"
+          },
+          "scripts/run_tasks.sh": {
+            "after": "e8613bf76a1ccfa36dbdbc60465b14e0be60e818c7ec69e0d48d2aac17347b0b",
+            "before": "00850f63734cc441bdf5ddd401403a3e6544718e70d28e762cc45e755793b25e"
+          }
+        }
+      },
+      "source_manifest": "runs/baseline_full_20261025/sessions/20261026_031530_41205/run_manifest.json",
+      "to_identity": "593e0cef16140ec31dae33df7e4657e8ecee189ab553fac7b3743271c2a82799"
+    }
+  ],
+  "prediction_sha256": "80c1a694fdfd51541887f3b4f0516dbcaed327c5e26743b51bd28d6d1fd97cde",
+  "run_identity": "593e0cef16140ec31dae33df7e4657e8ecee189ab553fac7b3743271c2a82799",
+  "scheduling_migration": {
+    "change": {
+      "MAX_PARALLEL": [
+        "4",
+        "6"
+      ],
+      "MODEL_MAX_CONCURRENCY": [
+        "4",
+        "5"
+      ]
+    },
+    "original_receipt": {
+      "completed_at": "2026-10-25T21:44:17.572743+08:00",
+      "prediction_sha256": "80c1a694fdfd51541887f3b4f0516dbcaed327c5e26743b51bd28d6d1fd97cde",
+      "run_identity": "1defc47477e0fb16818e611a8df46ce72945c70356d98efdb4d244075ec63e8f",
+      "scheduling_migration": {
+        "change": {
+          "MAX_PARALLEL": [
+            "2",
+            "4"
+          ]
+        },
+        "original_receipt": {
+          "completed_at": "2026-10-25T21:44:17.572743+08:00",
+          "prediction_sha256": "80c1a694fdfd51541887f3b4f0516dbcaed327c5e26743b51bd28d6d1fd97cde",
+          "run_identity": "a2b6ee2588bb65cdecfd7e481476ad986967378f0e5681ef421804c201d35582",
+          "success": true
+        },
+        "reviewed_source_changes": {
+          "champion/src/data_agent_baseline/tools_v2/speed_runtime.py": {
+            "after": "3b07f65a0f46f7e08e03b35d073c8fb18d45f74049a2fed7786374c8ca69f558",
+            "before": null
+          },
+          "champion/src/data_agent_baseline/video/asr_init_prompt.py": {
+            "after": "c67255367a031da8ed1ea8ad48f85ba48a6b5c0852dcbbed11d438a8a971ee7b",
+            "before": "2a6d30fb6239f61198d3e300bc4106f2f419db727306165d6f1a373cf9591509"
+          },
+          "champion/src/data_agent_baseline/video/frame_html_tool.py": {
+            "after": "593c5f6bbb50efdb4789d723d941386337b6cf0368a1e7c75168e247ad6140e4",
+            "before": "8566d74ce090a01b6bbe16bb9be7c178093605652c57879a46ca651a00090e46"
+          },
+          "champion/src/data_agent_baseline/zz_agent_v2.py": {
+            "after": "5b60c8765fc3acc1b1d34017614e8c9587ada704278f9a433628abd6bd6ee24c",
+            "before": "6ef5c7539505280f18f4f29bb142c4425add84cfd8bdf12c26f9ba6d9eb4bd4a"
+          }
+        },
+        "source_run": "runs/baseline_20261025_193118_83381"
+      },
+      "success": true
+    },
+    "reviewed_source_changes": {
+      "champion/src/data_agent_baseline/tools_v2/speed_runtime.py": {
+        "after": "8e6ad0c5d4aab24940863f0239a31e684d91728cff9696d26d60824dd408189d",
+        "before": "3b07f65a0f46f7e08e03b35d073c8fb18d45f74049a2fed7786374c8ca69f558"
+      }
+    },
+    "source_run": "runs/baseline_20261025_221636_33313"
+  },
+  "scheduling_migrations": [
+    {
+      "MAX_PARALLEL": [
+        "6",
+        "4"
+      ],
+      "changed_at": "2026-10-26T01:05:39.608367+08:00",
+      "from_identity": "3c21bc50c4efb87755363d671e3f6fb21d1241a42888791cb63df054b2bb5f9d",
+      "original_receipt": "runs/baseline_full_20261025/sessions/20261026_010539_4549/original_receipts/task_208.json",
+      "source_manifest": "runs/baseline_full_20261025/sessions/20261026_010539_4549/run_manifest.json",
+      "to_identity": "5688908ecde3d0106f5380bd137a4bdaab5d903c8c76c66e8a320b13341da00f"
+    }
+  ],
+  "success": true
+}

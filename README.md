@@ -34,10 +34,12 @@ scripts/        数据准备、运行、续跑、监控、评测和离线检查
 config/         上游源码版本与来源
 docs/           安装、架构、运行和实验分析
 results/        可公开的脱敏评分、逐题统计和实验配置
+runs/shared_public60_20261026/  本轮预测、完成凭据、求解代码和计时归档
+intro-plan/     课程原始PPT、初期项目梳理与环境搭建计划
 .env.example    ECNU 混用配置模板，不含令牌
 ```
 
-运行后会在本机生成 `data/`、`cache/`、`runs/`、`tools/`、`champion/.venv/` 和 `champion/asr_models/`，这些不提交到 Git。原始课程 PPT、数据、答案、模型权重、预测内容、完整对话和本机配置也不随仓库发布。
+运行后生成的数据、gold、缓存、权重、虚拟环境、完整对话和本机配置不提交到Git。`runs/` 只提交[团队共享归档](runs/shared_public60_20261026/README.md)，含60题原始预测及复盘资料；完整约2GB运行目录仍留在本机。课程资料见 [intro-plan](intro-plan/README.md)，数据与权重由成员按准备脚本下载。
 
 ## 安装与准备
 

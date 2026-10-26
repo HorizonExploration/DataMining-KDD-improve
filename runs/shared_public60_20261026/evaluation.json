@@ -1,0 +1,1855 @@
+{
+  "scope": "public60",
+  "task_count": 60,
+  "lambda": 0.1,
+  "course_score_100": 78.90266666666666,
+  "official_task_accuracy": 0.6666666666666666,
+  "course_results": [
+    {
+      "gold_csv": "data/DataSpace-Benchmark/output/task_10/gold.csv",
+      "pred_csv": "runs/baseline_full_20261025/predictions/task_10/prediction.csv",
+      "score": 0.45,
+      "recall": 0.5,
+      "matched_cols": 1,
+      "gold_cols": 2,
+      "pred_cols": 2,
+      "extra_cols": 1,
+      "error": null,
+      "task_id": "task_10"
+    },
+    {
+      "gold_csv": "data/DataSpace-Benchmark/output/task_18/gold.csv",
+      "pred_csv": "runs/baseline_full_20261025/predictions/task_18/prediction.csv",
+      "score": 0.0,
+      "recall": 0.0,
+      "matched_cols": 0,
+      "gold_cols": 2,
+      "pred_cols": 2,
+      "extra_cols": 2,
+      "error": null,
+      "task_id": "task_18"
+    },
+    {
+      "gold_csv": "data/DataSpace-Benchmark/output/task_23/gold.csv",
+      "pred_csv": "runs/baseline_full_20261025/predictions/task_23/prediction.csv",
+      "score": 1.0,
+      "recall": 1.0,
+      "matched_cols": 2,
+      "gold_cols": 2,
+      "pred_cols": 2,
+      "extra_cols": 0,
+      "error": null,
+      "task_id": "task_23"
+    },
+    {
+      "gold_csv": "data/DataSpace-Benchmark/output/task_24/gold.csv",
+      "pred_csv": "runs/baseline_full_20261025/predictions/task_24/prediction.csv",
+      "score": 1.0,
+      "recall": 1.0,
+      "matched_cols": 1,
+      "gold_cols": 1,
+      "pred_cols": 1,
+      "extra_cols": 0,
+      "error": null,
+      "task_id": "task_24"
+    },
+    {
+      "gold_csv": "data/DataSpace-Benchmark/output/task_33/gold.csv",
+      "pred_csv": "runs/baseline_full_20261025/predictions/task_33/prediction.csv",
+      "score": 1.0,
+      "recall": 1.0,
+      "matched_cols": 3,
+      "gold_cols": 3,
+      "pred_cols": 3,
+      "extra_cols": 0,
+      "error": null,
+      "task_id": "task_33"
+    },
+    {
+      "gold_csv": "data/DataSpace-Benchmark/output/task_35/gold.csv",
+      "pred_csv": "runs/baseline_full_20261025/predictions/task_35/prediction.csv",
+      "score": 1.0,
+      "recall": 1.0,
+      "matched_cols": 3,
+      "gold_cols": 3,
+      "pred_cols": 3,
+      "extra_cols": 0,
+      "error": null,
+      "task_id": "task_35"
+    },
+    {
+      "gold_csv": "data/DataSpace-Benchmark/output/task_43/gold.csv",
+      "pred_csv": "runs/baseline_full_20261025/predictions/task_43/prediction.csv",
+      "score": 1.0,
+      "recall": 1.0,
+      "matched_cols": 2,
+      "gold_cols": 2,
+      "pred_cols": 2,
+      "extra_cols": 0,
+      "error": null,
+      "task_id": "task_43"
+    },
+    {
+      "gold_csv": "data/DataSpace-Benchmark/output/task_44/gold.csv",
+      "pred_csv": "runs/baseline_full_20261025/predictions/task_44/prediction.csv",
+      "score": 1.0,
+      "recall": 1.0,
+      "matched_cols": 1,
+      "gold_cols": 1,
+      "pred_cols": 1,
+      "extra_cols": 0,
+      "error": null,
+      "task_id": "task_44"
+    },
+    {
+      "gold_csv": "data/DataSpace-Benchmark/output/task_48/gold.csv",
+      "pred_csv": "runs/baseline_full_20261025/predictions/task_48/prediction.csv",
+      "score": 0.95,
+      "recall": 1.0,
+      "matched_cols": 1,
+      "gold_cols": 1,
+      "pred_cols": 2,
+      "extra_cols": 1,
+      "error": null,
+      "task_id": "task_48"
+    },
+    {
+      "gold_csv": "data/DataSpace-Benchmark/output/task_58/gold.csv",
+      "pred_csv": "runs/baseline_full_20261025/predictions/task_58/prediction.csv",
+      "score": 0.6333,
+      "recall": 0.6667,
+      "matched_cols": 4,
+      "gold_cols": 6,
+      "pred_cols": 6,
+      "extra_cols": 2,
+      "error": null,
+      "task_id": "task_58"
+    },
+    {
+      "gold_csv": "data/DataSpace-Benchmark/output/task_85/gold.csv",
+      "pred_csv": "runs/baseline_full_20261025/predictions/task_85/prediction.csv",
+      "score": 0.0,
+      "recall": 0.0,
+      "matched_cols": 0,
+      "gold_cols": 1,
+      "pred_cols": 1,
+      "extra_cols": 1,
+      "error": null,
+      "task_id": "task_85"
+    },
+    {
+      "gold_csv": "data/DataSpace-Benchmark/output/task_86/gold.csv",
+      "pred_csv": "runs/baseline_full_20261025/predictions/task_86/prediction.csv",
+      "score": 0.6333,
+      "recall": 0.6667,
+      "matched_cols": 2,
+      "gold_cols": 3,
+      "pred_cols": 3,
+      "extra_cols": 1,
+      "error": null,
+      "task_id": "task_86"
+    },
+    {
+      "gold_csv": "data/DataSpace-Benchmark/output/task_87/gold.csv",
+      "pred_csv": "runs/baseline_full_20261025/predictions/task_87/prediction.csv",
+      "score": 1.0,
+      "recall": 1.0,
+      "matched_cols": 1,
+      "gold_cols": 1,
+      "pred_cols": 1,
+      "extra_cols": 0,
+      "error": null,
+      "task_id": "task_87"
+    },
+    {
+      "gold_csv": "data/DataSpace-Benchmark/output/task_102/gold.csv",
+      "pred_csv": "runs/baseline_full_20261025/predictions/task_102/prediction.csv",
+      "score": 0.0,
+      "recall": 0.0,
+      "matched_cols": 0,
+      "gold_cols": 1,
+      "pred_cols": 1,
+      "extra_cols": 1,
+      "error": null,
+      "task_id": "task_102"
+    },
+    {
+      "gold_csv": "data/DataSpace-Benchmark/output/task_103/gold.csv",
+      "pred_csv": "runs/baseline_full_20261025/predictions/task_103/prediction.csv",
+      "score": 1.0,
+      "recall": 1.0,
+      "matched_cols": 2,
+      "gold_cols": 2,
+      "pred_cols": 2,
+      "extra_cols": 0,
+      "error": null,
+      "task_id": "task_103"
+    },
+    {
+      "gold_csv": "data/DataSpace-Benchmark/output/task_111/gold.csv",
+      "pred_csv": "runs/baseline_full_20261025/predictions/task_111/prediction.csv",
+      "score": 1.0,
+      "recall": 1.0,
+      "matched_cols": 2,
+      "gold_cols": 2,
+      "pred_cols": 2,
+      "extra_cols": 0,
+      "error": null,
+      "task_id": "task_111"
+    },
+    {
+      "gold_csv": "data/DataSpace-Benchmark/output/task_123/gold.csv",
+      "pred_csv": "runs/baseline_full_20261025/predictions/task_123/prediction.csv",
+      "score": 0.0,
+      "recall": 0.0,
+      "matched_cols": 0,
+      "gold_cols": 1,
+      "pred_cols": 4,
+      "extra_cols": 4,
+      "error": null,
+      "task_id": "task_123"
+    },
+    {
+      "gold_csv": "data/DataSpace-Benchmark/output/task_127/gold.csv",
+      "pred_csv": "runs/baseline_full_20261025/predictions/task_127/prediction.csv",
+      "score": 1.0,
+      "recall": 1.0,
+      "matched_cols": 1,
+      "gold_cols": 1,
+      "pred_cols": 1,
+      "extra_cols": 0,
+      "error": null,
+      "task_id": "task_127"
+    },
+    {
+      "gold_csv": "data/DataSpace-Benchmark/output/task_128/gold.csv",
+      "pred_csv": "runs/baseline_full_20261025/predictions/task_128/prediction.csv",
+      "score": 1.0,
+      "recall": 1.0,
+      "matched_cols": 1,
+      "gold_cols": 1,
+      "pred_cols": 1,
+      "extra_cols": 0,
+      "error": null,
+      "task_id": "task_128"
+    },
+    {
+      "gold_csv": "data/DataSpace-Benchmark/output/task_129/gold.csv",
+      "pred_csv": "runs/baseline_full_20261025/predictions/task_129/prediction.csv",
+      "score": 0.0,
+      "recall": 0.0,
+      "matched_cols": 0,
+      "gold_cols": 2,
+      "pred_cols": 2,
+      "extra_cols": 2,
+      "error": null,
+      "task_id": "task_129"
+    },
+    {
+      "gold_csv": "data/DataSpace-Benchmark/output/task_133/gold.csv",
+      "pred_csv": "runs/baseline_full_20261025/predictions/task_133/prediction.csv",
+      "score": 0.95,
+      "recall": 1.0,
+      "matched_cols": 1,
+      "gold_cols": 1,
+      "pred_cols": 2,
+      "extra_cols": 1,
+      "error": null,
+      "task_id": "task_133"
+    },
+    {
+      "gold_csv": "data/DataSpace-Benchmark/output/task_140/gold.csv",
+      "pred_csv": "runs/baseline_full_20261025/predictions/task_140/prediction.csv",
+      "score": 1.0,
+      "recall": 1.0,
+      "matched_cols": 1,
+      "gold_cols": 1,
+      "pred_cols": 1,
+      "extra_cols": 0,
+      "error": null,
+      "task_id": "task_140"
+    },
+    {
+      "gold_csv": "data/DataSpace-Benchmark/output/task_159/gold.csv",
+      "pred_csv": "runs/baseline_full_20261025/predictions/task_159/prediction.csv",
+      "score": 1.0,
+      "recall": 1.0,
+      "matched_cols": 1,
+      "gold_cols": 1,
+      "pred_cols": 1,
+      "extra_cols": 0,
+      "error": null,
+      "task_id": "task_159"
+    },
+    {
+      "gold_csv": "data/DataSpace-Benchmark/output/task_166/gold.csv",
+      "pred_csv": "runs/baseline_full_20261025/predictions/task_166/prediction.csv",
+      "score": 1.0,
+      "recall": 1.0,
+      "matched_cols": 1,
+      "gold_cols": 1,
+      "pred_cols": 1,
+      "extra_cols": 0,
+      "error": null,
+      "task_id": "task_166"
+    },
+    {
+      "gold_csv": "data/DataSpace-Benchmark/output/task_168/gold.csv",
+      "pred_csv": "runs/baseline_full_20261025/predictions/task_168/prediction.csv",
+      "score": 1.0,
+      "recall": 1.0,
+      "matched_cols": 1,
+      "gold_cols": 1,
+      "pred_cols": 1,
+      "extra_cols": 0,
+      "error": null,
+      "task_id": "task_168"
+    },
+    {
+      "gold_csv": "data/DataSpace-Benchmark/output/task_182/gold.csv",
+      "pred_csv": "runs/baseline_full_20261025/predictions/task_182/prediction.csv",
+      "score": 0.0,
+      "recall": 0.0,
+      "matched_cols": 0,
+      "gold_cols": 2,
+      "pred_cols": 2,
+      "extra_cols": 2,
+      "error": null,
+      "task_id": "task_182"
+    },
+    {
+      "gold_csv": "data/DataSpace-Benchmark/output/task_184/gold.csv",
+      "pred_csv": "runs/baseline_full_20261025/predictions/task_184/prediction.csv",
+      "score": 1.0,
+      "recall": 1.0,
+      "matched_cols": 2,
+      "gold_cols": 2,
+      "pred_cols": 2,
+      "extra_cols": 0,
+      "error": null,
+      "task_id": "task_184"
+    },
+    {
+      "gold_csv": "data/DataSpace-Benchmark/output/task_196/gold.csv",
+      "pred_csv": "runs/baseline_full_20261025/predictions/task_196/prediction.csv",
+      "score": 0.0,
+      "recall": 0.0,
+      "matched_cols": 0,
+      "gold_cols": 1,
+      "pred_cols": 4,
+      "extra_cols": 4,
+      "error": null,
+      "task_id": "task_196"
+    },
+    {
+      "gold_csv": "data/DataSpace-Benchmark/output/task_199/gold.csv",
+      "pred_csv": "runs/baseline_full_20261025/predictions/task_199/prediction.csv",
+      "score": 1.0,
+      "recall": 1.0,
+      "matched_cols": 4,
+      "gold_cols": 4,
+      "pred_cols": 4,
+      "extra_cols": 0,
+      "error": null,
+      "task_id": "task_199"
+    },
+    {
+      "gold_csv": "data/DataSpace-Benchmark/output/task_200/gold.csv",
+      "pred_csv": "runs/baseline_full_20261025/predictions/task_200/prediction.csv",
+      "score": 0.925,
+      "recall": 1.0,
+      "matched_cols": 1,
+      "gold_cols": 1,
+      "pred_cols": 4,
+      "extra_cols": 3,
+      "error": null,
+      "task_id": "task_200"
+    },
+    {
+      "gold_csv": "data/DataSpace-Benchmark/output/task_208/gold.csv",
+      "pred_csv": "runs/baseline_full_20261025/predictions/task_208/prediction.csv",
+      "score": 0.9667,
+      "recall": 1.0,
+      "matched_cols": 2,
+      "gold_cols": 2,
+      "pred_cols": 3,
+      "extra_cols": 1,
+      "error": null,
+      "task_id": "task_208"
+    },
+    {
+      "gold_csv": "data/DataSpace-Benchmark/output/task_215/gold.csv",
+      "pred_csv": "runs/baseline_full_20261025/predictions/task_215/prediction.csv",
+      "score": 1.0,
+      "recall": 1.0,
+      "matched_cols": 2,
+      "gold_cols": 2,
+      "pred_cols": 2,
+      "extra_cols": 0,
+      "error": null,
+      "task_id": "task_215"
+    },
+    {
+      "gold_csv": "data/DataSpace-Benchmark/output/task_257/gold.csv",
+      "pred_csv": "runs/baseline_full_20261025/predictions/task_257/prediction.csv",
+      "score": 0.45,
+      "recall": 0.5,
+      "matched_cols": 1,
+      "gold_cols": 2,
+      "pred_cols": 2,
+      "extra_cols": 1,
+      "error": null,
+      "task_id": "task_257"
+    },
+    {
+      "gold_csv": "data/DataSpace-Benchmark/output/task_259/gold.csv",
+      "pred_csv": "runs/baseline_full_20261025/predictions/task_259/prediction.csv",
+      "score": 0.45,
+      "recall": 0.5,
+      "matched_cols": 1,
+      "gold_cols": 2,
+      "pred_cols": 2,
+      "extra_cols": 1,
+      "error": null,
+      "task_id": "task_259"
+    },
+    {
+      "gold_csv": "data/DataSpace-Benchmark/output/task_263/gold.csv",
+      "pred_csv": "runs/baseline_full_20261025/predictions/task_263/prediction.csv",
+      "score": 1.0,
+      "recall": 1.0,
+      "matched_cols": 1,
+      "gold_cols": 1,
+      "pred_cols": 1,
+      "extra_cols": 0,
+      "error": null,
+      "task_id": "task_263"
+    },
+    {
+      "gold_csv": "data/DataSpace-Benchmark/output/task_264/gold.csv",
+      "pred_csv": "runs/baseline_full_20261025/predictions/task_264/prediction.csv",
+      "score": 1.0,
+      "recall": 1.0,
+      "matched_cols": 3,
+      "gold_cols": 3,
+      "pred_cols": 3,
+      "extra_cols": 0,
+      "error": null,
+      "task_id": "task_264"
+    },
+    {
+      "gold_csv": "data/DataSpace-Benchmark/output/task_267/gold.csv",
+      "pred_csv": "runs/baseline_full_20261025/predictions/task_267/prediction.csv",
+      "score": 1.0,
+      "recall": 1.0,
+      "matched_cols": 4,
+      "gold_cols": 4,
+      "pred_cols": 4,
+      "extra_cols": 0,
+      "error": null,
+      "task_id": "task_267"
+    },
+    {
+      "gold_csv": "data/DataSpace-Benchmark/output/task_269/gold.csv",
+      "pred_csv": "runs/baseline_full_20261025/predictions/task_269/prediction.csv",
+      "score": 1.0,
+      "recall": 1.0,
+      "matched_cols": 3,
+      "gold_cols": 3,
+      "pred_cols": 3,
+      "extra_cols": 0,
+      "error": null,
+      "task_id": "task_269"
+    },
+    {
+      "gold_csv": "data/DataSpace-Benchmark/output/task_279/gold.csv",
+      "pred_csv": "runs/baseline_full_20261025/predictions/task_279/prediction.csv",
+      "score": 0.9667,
+      "recall": 1.0,
+      "matched_cols": 2,
+      "gold_cols": 2,
+      "pred_cols": 3,
+      "extra_cols": 1,
+      "error": null,
+      "task_id": "task_279"
+    },
+    {
+      "gold_csv": "data/DataSpace-Benchmark/output/task_285/gold.csv",
+      "pred_csv": "runs/baseline_full_20261025/predictions/task_285/prediction.csv",
+      "score": 1.0,
+      "recall": 1.0,
+      "matched_cols": 1,
+      "gold_cols": 1,
+      "pred_cols": 1,
+      "extra_cols": 0,
+      "error": null,
+      "task_id": "task_285"
+    },
+    {
+      "gold_csv": "data/DataSpace-Benchmark/output/task_298/gold.csv",
+      "pred_csv": "runs/baseline_full_20261025/predictions/task_298/prediction.csv",
+      "score": 1.0,
+      "recall": 1.0,
+      "matched_cols": 1,
+      "gold_cols": 1,
+      "pred_cols": 1,
+      "extra_cols": 0,
+      "error": null,
+      "task_id": "task_298"
+    },
+    {
+      "gold_csv": "data/DataSpace-Benchmark/output/task_300/gold.csv",
+      "pred_csv": "runs/baseline_full_20261025/predictions/task_300/prediction.csv",
+      "score": 0.0,
+      "recall": 0.0,
+      "matched_cols": 0,
+      "gold_cols": 1,
+      "pred_cols": 2,
+      "extra_cols": 2,
+      "error": null,
+      "task_id": "task_300"
+    },
+    {
+      "gold_csv": "data/DataSpace-Benchmark/output/task_312/gold.csv",
+      "pred_csv": "runs/baseline_full_20261025/predictions/task_312/prediction.csv",
+      "score": 1.0,
+      "recall": 1.0,
+      "matched_cols": 3,
+      "gold_cols": 3,
+      "pred_cols": 3,
+      "extra_cols": 0,
+      "error": null,
+      "task_id": "task_312"
+    },
+    {
+      "gold_csv": "data/DataSpace-Benchmark/output/task_322/gold.csv",
+      "pred_csv": "runs/baseline_full_20261025/predictions/task_322/prediction.csv",
+      "score": 0.95,
+      "recall": 1.0,
+      "matched_cols": 2,
+      "gold_cols": 2,
+      "pred_cols": 4,
+      "extra_cols": 2,
+      "error": null,
+      "task_id": "task_322"
+    },
+    {
+      "gold_csv": "data/DataSpace-Benchmark/output/task_326/gold.csv",
+      "pred_csv": "runs/baseline_full_20261025/predictions/task_326/prediction.csv",
+      "score": 1.0,
+      "recall": 1.0,
+      "matched_cols": 1,
+      "gold_cols": 1,
+      "pred_cols": 1,
+      "extra_cols": 0,
+      "error": null,
+      "task_id": "task_326"
+    },
+    {
+      "gold_csv": "data/DataSpace-Benchmark/output/task_328/gold.csv",
+      "pred_csv": "runs/baseline_full_20261025/predictions/task_328/prediction.csv",
+      "score": 0.6333,
+      "recall": 0.6667,
+      "matched_cols": 2,
+      "gold_cols": 3,
+      "pred_cols": 3,
+      "extra_cols": 1,
+      "error": null,
+      "task_id": "task_328"
+    },
+    {
+      "gold_csv": "data/DataSpace-Benchmark/output/task_329/gold.csv",
+      "pred_csv": "runs/baseline_full_20261025/predictions/task_329/prediction.csv",
+      "score": 1.0,
+      "recall": 1.0,
+      "matched_cols": 1,
+      "gold_cols": 1,
+      "pred_cols": 1,
+      "extra_cols": 0,
+      "error": null,
+      "task_id": "task_329"
+    },
+    {
+      "gold_csv": "data/DataSpace-Benchmark/output/task_336/gold.csv",
+      "pred_csv": "runs/baseline_full_20261025/predictions/task_336/prediction.csv",
+      "score": 1.0,
+      "recall": 1.0,
+      "matched_cols": 4,
+      "gold_cols": 4,
+      "pred_cols": 4,
+      "extra_cols": 0,
+      "error": null,
+      "task_id": "task_336"
+    },
+    {
+      "gold_csv": "data/DataSpace-Benchmark/output/task_337/gold.csv",
+      "pred_csv": "runs/baseline_full_20261025/predictions/task_337/prediction.csv",
+      "score": 1.0,
+      "recall": 1.0,
+      "matched_cols": 1,
+      "gold_cols": 1,
+      "pred_cols": 1,
+      "extra_cols": 0,
+      "error": null,
+      "task_id": "task_337"
+    },
+    {
+      "gold_csv": "data/DataSpace-Benchmark/output/task_361/gold.csv",
+      "pred_csv": "runs/baseline_full_20261025/predictions/task_361/prediction.csv",
+      "score": 1.0,
+      "recall": 1.0,
+      "matched_cols": 1,
+      "gold_cols": 1,
+      "pred_cols": 1,
+      "extra_cols": 0,
+      "error": null,
+      "task_id": "task_361"
+    },
+    {
+      "gold_csv": "data/DataSpace-Benchmark/output/task_362/gold.csv",
+      "pred_csv": "runs/baseline_full_20261025/predictions/task_362/prediction.csv",
+      "score": 1.0,
+      "recall": 1.0,
+      "matched_cols": 1,
+      "gold_cols": 1,
+      "pred_cols": 1,
+      "extra_cols": 0,
+      "error": null,
+      "task_id": "task_362"
+    },
+    {
+      "gold_csv": "data/DataSpace-Benchmark/output/task_371/gold.csv",
+      "pred_csv": "runs/baseline_full_20261025/predictions/task_371/prediction.csv",
+      "score": 1.0,
+      "recall": 1.0,
+      "matched_cols": 2,
+      "gold_cols": 2,
+      "pred_cols": 2,
+      "extra_cols": 0,
+      "error": null,
+      "task_id": "task_371"
+    },
+    {
+      "gold_csv": "data/DataSpace-Benchmark/output/task_378/gold.csv",
+      "pred_csv": "runs/baseline_full_20261025/predictions/task_378/prediction.csv",
+      "score": 1.0,
+      "recall": 1.0,
+      "matched_cols": 1,
+      "gold_cols": 1,
+      "pred_cols": 1,
+      "extra_cols": 0,
+      "error": null,
+      "task_id": "task_378"
+    },
+    {
+      "gold_csv": "data/DataSpace-Benchmark/output/task_380/gold.csv",
+      "pred_csv": "runs/baseline_full_20261025/predictions/task_380/prediction.csv",
+      "score": 0.0,
+      "recall": 0.0,
+      "matched_cols": 0,
+      "gold_cols": 1,
+      "pred_cols": 1,
+      "extra_cols": 1,
+      "error": null,
+      "task_id": "task_380"
+    },
+    {
+      "gold_csv": "data/DataSpace-Benchmark/output/task_382/gold.csv",
+      "pred_csv": "runs/baseline_full_20261025/predictions/task_382/prediction.csv",
+      "score": 0.95,
+      "recall": 1.0,
+      "matched_cols": 1,
+      "gold_cols": 1,
+      "pred_cols": 2,
+      "extra_cols": 1,
+      "error": null,
+      "task_id": "task_382"
+    },
+    {
+      "gold_csv": "data/DataSpace-Benchmark/output/task_389/gold.csv",
+      "pred_csv": "runs/baseline_full_20261025/predictions/task_389/prediction.csv",
+      "score": 0.6333,
+      "recall": 0.6667,
+      "matched_cols": 2,
+      "gold_cols": 3,
+      "pred_cols": 3,
+      "extra_cols": 1,
+      "error": null,
+      "task_id": "task_389"
+    },
+    {
+      "gold_csv": "data/DataSpace-Benchmark/output/task_391/gold.csv",
+      "pred_csv": "runs/baseline_full_20261025/predictions/task_391/prediction.csv",
+      "score": 0.8,
+      "recall": 0.8,
+      "matched_cols": 4,
+      "gold_cols": 5,
+      "pred_cols": 4,
+      "extra_cols": 0,
+      "error": null,
+      "task_id": "task_391"
+    },
+    {
+      "gold_csv": "data/DataSpace-Benchmark/output/task_398/gold.csv",
+      "pred_csv": "runs/baseline_full_20261025/predictions/task_398/prediction.csv",
+      "score": 1.0,
+      "recall": 1.0,
+      "matched_cols": 2,
+      "gold_cols": 2,
+      "pred_cols": 2,
+      "extra_cols": 0,
+      "error": null,
+      "task_id": "task_398"
+    },
+    {
+      "gold_csv": "data/DataSpace-Benchmark/output/task_402/gold.csv",
+      "pred_csv": "runs/baseline_full_20261025/predictions/task_402/prediction.csv",
+      "score": 1.0,
+      "recall": 1.0,
+      "matched_cols": 3,
+      "gold_cols": 3,
+      "pred_cols": 3,
+      "extra_cols": 0,
+      "error": null,
+      "task_id": "task_402"
+    },
+    {
+      "gold_csv": "data/DataSpace-Benchmark/output/task_409/gold.csv",
+      "pred_csv": "runs/baseline_full_20261025/predictions/task_409/prediction.csv",
+      "score": 1.0,
+      "recall": 1.0,
+      "matched_cols": 1,
+      "gold_cols": 1,
+      "pred_cols": 1,
+      "extra_cols": 0,
+      "error": null,
+      "task_id": "task_409"
+    }
+  ],
+  "official_results": [
+    {
+      "task_id": "task_10",
+      "passed": true,
+      "score": 1,
+      "order_sensitive": true,
+      "gold_column_count": 2,
+      "prediction_column_count": 2,
+      "gold_row_count": 242,
+      "prediction_row_count": 242,
+      "column_mapping": [
+        {
+          "gold_index": 0,
+          "prediction_index": 0
+        },
+        {
+          "gold_index": 1,
+          "prediction_index": 1
+        }
+      ],
+      "error_code": null,
+      "error": null
+    },
+    {
+      "task_id": "task_18",
+      "passed": false,
+      "score": 0,
+      "order_sensitive": true,
+      "gold_column_count": 2,
+      "prediction_column_count": 2,
+      "gold_row_count": 3,
+      "prediction_row_count": 4,
+      "column_mapping": null,
+      "error_code": "row_count_mismatch",
+      "error": "Expected 3 data rows; received 4"
+    },
+    {
+      "task_id": "task_23",
+      "passed": true,
+      "score": 1,
+      "order_sensitive": false,
+      "gold_column_count": 2,
+      "prediction_column_count": 2,
+      "gold_row_count": 2,
+      "prediction_row_count": 2,
+      "column_mapping": [
+        {
+          "gold_index": 0,
+          "prediction_index": 0
+        },
+        {
+          "gold_index": 1,
+          "prediction_index": 1
+        }
+      ],
+      "error_code": null,
+      "error": null
+    },
+    {
+      "task_id": "task_24",
+      "passed": true,
+      "score": 1,
+      "order_sensitive": false,
+      "gold_column_count": 1,
+      "prediction_column_count": 1,
+      "gold_row_count": 1,
+      "prediction_row_count": 1,
+      "column_mapping": [
+        {
+          "gold_index": 0,
+          "prediction_index": 0
+        }
+      ],
+      "error_code": null,
+      "error": null
+    },
+    {
+      "task_id": "task_33",
+      "passed": true,
+      "score": 1,
+      "order_sensitive": true,
+      "gold_column_count": 3,
+      "prediction_column_count": 3,
+      "gold_row_count": 12962,
+      "prediction_row_count": 12962,
+      "column_mapping": [
+        {
+          "gold_index": 0,
+          "prediction_index": 0
+        },
+        {
+          "gold_index": 1,
+          "prediction_index": 1
+        },
+        {
+          "gold_index": 2,
+          "prediction_index": 2
+        }
+      ],
+      "error_code": null,
+      "error": null
+    },
+    {
+      "task_id": "task_35",
+      "passed": true,
+      "score": 1,
+      "order_sensitive": true,
+      "gold_column_count": 3,
+      "prediction_column_count": 3,
+      "gold_row_count": 3,
+      "prediction_row_count": 3,
+      "column_mapping": [
+        {
+          "gold_index": 0,
+          "prediction_index": 0
+        },
+        {
+          "gold_index": 1,
+          "prediction_index": 1
+        },
+        {
+          "gold_index": 2,
+          "prediction_index": 2
+        }
+      ],
+      "error_code": null,
+      "error": null
+    },
+    {
+      "task_id": "task_43",
+      "passed": true,
+      "score": 1,
+      "order_sensitive": true,
+      "gold_column_count": 2,
+      "prediction_column_count": 2,
+      "gold_row_count": 12,
+      "prediction_row_count": 12,
+      "column_mapping": [
+        {
+          "gold_index": 0,
+          "prediction_index": 0
+        },
+        {
+          "gold_index": 1,
+          "prediction_index": 1
+        }
+      ],
+      "error_code": null,
+      "error": null
+    },
+    {
+      "task_id": "task_44",
+      "passed": true,
+      "score": 1,
+      "order_sensitive": true,
+      "gold_column_count": 1,
+      "prediction_column_count": 1,
+      "gold_row_count": 4,
+      "prediction_row_count": 4,
+      "column_mapping": [
+        {
+          "gold_index": 0,
+          "prediction_index": 0
+        }
+      ],
+      "error_code": null,
+      "error": null
+    },
+    {
+      "task_id": "task_48",
+      "passed": false,
+      "score": 0,
+      "order_sensitive": false,
+      "gold_column_count": 1,
+      "prediction_column_count": 2,
+      "gold_row_count": 3,
+      "prediction_row_count": 3,
+      "column_mapping": null,
+      "error_code": "column_count_mismatch",
+      "error": "Expected 1 columns; received 2"
+    },
+    {
+      "task_id": "task_58",
+      "passed": false,
+      "score": 0,
+      "order_sensitive": true,
+      "gold_column_count": 6,
+      "prediction_column_count": 6,
+      "gold_row_count": 50,
+      "prediction_row_count": 50,
+      "column_mapping": null,
+      "error_code": "relation_mismatch",
+      "error": "Prediction does not equal the gold ordered row sequence"
+    },
+    {
+      "task_id": "task_85",
+      "passed": false,
+      "score": 0,
+      "order_sensitive": false,
+      "gold_column_count": 1,
+      "prediction_column_count": 1,
+      "gold_row_count": 5,
+      "prediction_row_count": 5,
+      "column_mapping": null,
+      "error_code": "relation_mismatch",
+      "error": "Prediction does not equal the gold unordered row multiset"
+    },
+    {
+      "task_id": "task_86",
+      "passed": true,
+      "score": 1,
+      "order_sensitive": false,
+      "gold_column_count": 3,
+      "prediction_column_count": 3,
+      "gold_row_count": 1,
+      "prediction_row_count": 1,
+      "column_mapping": [
+        {
+          "gold_index": 0,
+          "prediction_index": 0
+        },
+        {
+          "gold_index": 1,
+          "prediction_index": 1
+        },
+        {
+          "gold_index": 2,
+          "prediction_index": 2
+        }
+      ],
+      "error_code": null,
+      "error": null
+    },
+    {
+      "task_id": "task_87",
+      "passed": true,
+      "score": 1,
+      "order_sensitive": false,
+      "gold_column_count": 1,
+      "prediction_column_count": 1,
+      "gold_row_count": 1,
+      "prediction_row_count": 1,
+      "column_mapping": [
+        {
+          "gold_index": 0,
+          "prediction_index": 0
+        }
+      ],
+      "error_code": null,
+      "error": null
+    },
+    {
+      "task_id": "task_102",
+      "passed": false,
+      "score": 0,
+      "order_sensitive": false,
+      "gold_column_count": 1,
+      "prediction_column_count": 1,
+      "gold_row_count": 1,
+      "prediction_row_count": 1,
+      "column_mapping": null,
+      "error_code": "relation_mismatch",
+      "error": "Prediction does not equal the gold unordered row multiset"
+    },
+    {
+      "task_id": "task_103",
+      "passed": true,
+      "score": 1,
+      "order_sensitive": true,
+      "gold_column_count": 2,
+      "prediction_column_count": 2,
+      "gold_row_count": 23,
+      "prediction_row_count": 23,
+      "column_mapping": [
+        {
+          "gold_index": 0,
+          "prediction_index": 0
+        },
+        {
+          "gold_index": 1,
+          "prediction_index": 1
+        }
+      ],
+      "error_code": null,
+      "error": null
+    },
+    {
+      "task_id": "task_111",
+      "passed": true,
+      "score": 1,
+      "order_sensitive": false,
+      "gold_column_count": 2,
+      "prediction_column_count": 2,
+      "gold_row_count": 1,
+      "prediction_row_count": 1,
+      "column_mapping": [
+        {
+          "gold_index": 0,
+          "prediction_index": 0
+        },
+        {
+          "gold_index": 1,
+          "prediction_index": 1
+        }
+      ],
+      "error_code": null,
+      "error": null
+    },
+    {
+      "task_id": "task_123",
+      "passed": false,
+      "score": 0,
+      "order_sensitive": false,
+      "gold_column_count": 1,
+      "prediction_column_count": 4,
+      "gold_row_count": 1,
+      "prediction_row_count": 4,
+      "column_mapping": null,
+      "error_code": "column_count_mismatch",
+      "error": "Expected 1 columns; received 4"
+    },
+    {
+      "task_id": "task_127",
+      "passed": true,
+      "score": 1,
+      "order_sensitive": false,
+      "gold_column_count": 1,
+      "prediction_column_count": 1,
+      "gold_row_count": 1,
+      "prediction_row_count": 1,
+      "column_mapping": [
+        {
+          "gold_index": 0,
+          "prediction_index": 0
+        }
+      ],
+      "error_code": null,
+      "error": null
+    },
+    {
+      "task_id": "task_128",
+      "passed": true,
+      "score": 1,
+      "order_sensitive": true,
+      "gold_column_count": 1,
+      "prediction_column_count": 1,
+      "gold_row_count": 2,
+      "prediction_row_count": 2,
+      "column_mapping": [
+        {
+          "gold_index": 0,
+          "prediction_index": 0
+        }
+      ],
+      "error_code": null,
+      "error": null
+    },
+    {
+      "task_id": "task_129",
+      "passed": false,
+      "score": 0,
+      "order_sensitive": false,
+      "gold_column_count": 2,
+      "prediction_column_count": 2,
+      "gold_row_count": 4,
+      "prediction_row_count": 9,
+      "column_mapping": null,
+      "error_code": "row_count_mismatch",
+      "error": "Expected 4 data rows; received 9"
+    },
+    {
+      "task_id": "task_133",
+      "passed": false,
+      "score": 0,
+      "order_sensitive": false,
+      "gold_column_count": 1,
+      "prediction_column_count": 2,
+      "gold_row_count": 1,
+      "prediction_row_count": 1,
+      "column_mapping": null,
+      "error_code": "column_count_mismatch",
+      "error": "Expected 1 columns; received 2"
+    },
+    {
+      "task_id": "task_140",
+      "passed": true,
+      "score": 1,
+      "order_sensitive": false,
+      "gold_column_count": 1,
+      "prediction_column_count": 1,
+      "gold_row_count": 1,
+      "prediction_row_count": 1,
+      "column_mapping": [
+        {
+          "gold_index": 0,
+          "prediction_index": 0
+        }
+      ],
+      "error_code": null,
+      "error": null
+    },
+    {
+      "task_id": "task_159",
+      "passed": true,
+      "score": 1,
+      "order_sensitive": false,
+      "gold_column_count": 1,
+      "prediction_column_count": 1,
+      "gold_row_count": 1,
+      "prediction_row_count": 1,
+      "column_mapping": [
+        {
+          "gold_index": 0,
+          "prediction_index": 0
+        }
+      ],
+      "error_code": null,
+      "error": null
+    },
+    {
+      "task_id": "task_166",
+      "passed": true,
+      "score": 1,
+      "order_sensitive": false,
+      "gold_column_count": 1,
+      "prediction_column_count": 1,
+      "gold_row_count": 1,
+      "prediction_row_count": 1,
+      "column_mapping": [
+        {
+          "gold_index": 0,
+          "prediction_index": 0
+        }
+      ],
+      "error_code": null,
+      "error": null
+    },
+    {
+      "task_id": "task_168",
+      "passed": true,
+      "score": 1,
+      "order_sensitive": true,
+      "gold_column_count": 1,
+      "prediction_column_count": 1,
+      "gold_row_count": 30,
+      "prediction_row_count": 30,
+      "column_mapping": [
+        {
+          "gold_index": 0,
+          "prediction_index": 0
+        }
+      ],
+      "error_code": null,
+      "error": null
+    },
+    {
+      "task_id": "task_182",
+      "passed": false,
+      "score": 0,
+      "order_sensitive": false,
+      "gold_column_count": 2,
+      "prediction_column_count": 2,
+      "gold_row_count": 12,
+      "prediction_row_count": 12,
+      "column_mapping": null,
+      "error_code": "relation_mismatch",
+      "error": "Prediction does not equal the gold unordered row multiset"
+    },
+    {
+      "task_id": "task_184",
+      "passed": true,
+      "score": 1,
+      "order_sensitive": false,
+      "gold_column_count": 2,
+      "prediction_column_count": 2,
+      "gold_row_count": 374,
+      "prediction_row_count": 374,
+      "column_mapping": [
+        {
+          "gold_index": 0,
+          "prediction_index": 0
+        },
+        {
+          "gold_index": 1,
+          "prediction_index": 1
+        }
+      ],
+      "error_code": null,
+      "error": null
+    },
+    {
+      "task_id": "task_196",
+      "passed": false,
+      "score": 0,
+      "order_sensitive": false,
+      "gold_column_count": 1,
+      "prediction_column_count": 4,
+      "gold_row_count": 47,
+      "prediction_row_count": 47,
+      "column_mapping": null,
+      "error_code": "column_count_mismatch",
+      "error": "Expected 1 columns; received 4"
+    },
+    {
+      "task_id": "task_199",
+      "passed": true,
+      "score": 1,
+      "order_sensitive": false,
+      "gold_column_count": 4,
+      "prediction_column_count": 4,
+      "gold_row_count": 2,
+      "prediction_row_count": 2,
+      "column_mapping": [
+        {
+          "gold_index": 0,
+          "prediction_index": 0
+        },
+        {
+          "gold_index": 1,
+          "prediction_index": 1
+        },
+        {
+          "gold_index": 2,
+          "prediction_index": 2
+        },
+        {
+          "gold_index": 3,
+          "prediction_index": 3
+        }
+      ],
+      "error_code": null,
+      "error": null
+    },
+    {
+      "task_id": "task_200",
+      "passed": false,
+      "score": 0,
+      "order_sensitive": false,
+      "gold_column_count": 1,
+      "prediction_column_count": 4,
+      "gold_row_count": 9,
+      "prediction_row_count": 9,
+      "column_mapping": null,
+      "error_code": "column_count_mismatch",
+      "error": "Expected 1 columns; received 4"
+    },
+    {
+      "task_id": "task_208",
+      "passed": false,
+      "score": 0,
+      "order_sensitive": false,
+      "gold_column_count": 2,
+      "prediction_column_count": 3,
+      "gold_row_count": 1,
+      "prediction_row_count": 1,
+      "column_mapping": null,
+      "error_code": "column_count_mismatch",
+      "error": "Expected 2 columns; received 3"
+    },
+    {
+      "task_id": "task_215",
+      "passed": true,
+      "score": 1,
+      "order_sensitive": true,
+      "gold_column_count": 2,
+      "prediction_column_count": 2,
+      "gold_row_count": 10,
+      "prediction_row_count": 10,
+      "column_mapping": [
+        {
+          "gold_index": 0,
+          "prediction_index": 0
+        },
+        {
+          "gold_index": 1,
+          "prediction_index": 1
+        }
+      ],
+      "error_code": null,
+      "error": null
+    },
+    {
+      "task_id": "task_257",
+      "passed": false,
+      "score": 0,
+      "order_sensitive": false,
+      "gold_column_count": 2,
+      "prediction_column_count": 2,
+      "gold_row_count": 17,
+      "prediction_row_count": 17,
+      "column_mapping": null,
+      "error_code": "relation_mismatch",
+      "error": "Prediction does not equal the gold unordered row multiset"
+    },
+    {
+      "task_id": "task_259",
+      "passed": false,
+      "score": 0,
+      "order_sensitive": false,
+      "gold_column_count": 2,
+      "prediction_column_count": 2,
+      "gold_row_count": 12962,
+      "prediction_row_count": 12962,
+      "column_mapping": null,
+      "error_code": "relation_mismatch",
+      "error": "Prediction does not equal the gold unordered row multiset"
+    },
+    {
+      "task_id": "task_263",
+      "passed": true,
+      "score": 1,
+      "order_sensitive": false,
+      "gold_column_count": 1,
+      "prediction_column_count": 1,
+      "gold_row_count": 306,
+      "prediction_row_count": 306,
+      "column_mapping": [
+        {
+          "gold_index": 0,
+          "prediction_index": 0
+        }
+      ],
+      "error_code": null,
+      "error": null
+    },
+    {
+      "task_id": "task_264",
+      "passed": true,
+      "score": 1,
+      "order_sensitive": false,
+      "gold_column_count": 3,
+      "prediction_column_count": 3,
+      "gold_row_count": 35,
+      "prediction_row_count": 35,
+      "column_mapping": [
+        {
+          "gold_index": 0,
+          "prediction_index": 0
+        },
+        {
+          "gold_index": 1,
+          "prediction_index": 1
+        },
+        {
+          "gold_index": 2,
+          "prediction_index": 2
+        }
+      ],
+      "error_code": null,
+      "error": null
+    },
+    {
+      "task_id": "task_267",
+      "passed": true,
+      "score": 1,
+      "order_sensitive": false,
+      "gold_column_count": 4,
+      "prediction_column_count": 4,
+      "gold_row_count": 10,
+      "prediction_row_count": 10,
+      "column_mapping": [
+        {
+          "gold_index": 0,
+          "prediction_index": 0
+        },
+        {
+          "gold_index": 1,
+          "prediction_index": 1
+        },
+        {
+          "gold_index": 2,
+          "prediction_index": 2
+        },
+        {
+          "gold_index": 3,
+          "prediction_index": 3
+        }
+      ],
+      "error_code": null,
+      "error": null
+    },
+    {
+      "task_id": "task_269",
+      "passed": true,
+      "score": 1,
+      "order_sensitive": false,
+      "gold_column_count": 3,
+      "prediction_column_count": 3,
+      "gold_row_count": 2,
+      "prediction_row_count": 2,
+      "column_mapping": [
+        {
+          "gold_index": 0,
+          "prediction_index": 0
+        },
+        {
+          "gold_index": 1,
+          "prediction_index": 1
+        },
+        {
+          "gold_index": 2,
+          "prediction_index": 2
+        }
+      ],
+      "error_code": null,
+      "error": null
+    },
+    {
+      "task_id": "task_279",
+      "passed": false,
+      "score": 0,
+      "order_sensitive": false,
+      "gold_column_count": 2,
+      "prediction_column_count": 3,
+      "gold_row_count": 1,
+      "prediction_row_count": 1,
+      "column_mapping": null,
+      "error_code": "column_count_mismatch",
+      "error": "Expected 2 columns; received 3"
+    },
+    {
+      "task_id": "task_285",
+      "passed": true,
+      "score": 1,
+      "order_sensitive": false,
+      "gold_column_count": 1,
+      "prediction_column_count": 1,
+      "gold_row_count": 1,
+      "prediction_row_count": 1,
+      "column_mapping": [
+        {
+          "gold_index": 0,
+          "prediction_index": 0
+        }
+      ],
+      "error_code": null,
+      "error": null
+    },
+    {
+      "task_id": "task_298",
+      "passed": true,
+      "score": 1,
+      "order_sensitive": false,
+      "gold_column_count": 1,
+      "prediction_column_count": 1,
+      "gold_row_count": 1,
+      "prediction_row_count": 1,
+      "column_mapping": [
+        {
+          "gold_index": 0,
+          "prediction_index": 0
+        }
+      ],
+      "error_code": null,
+      "error": null
+    },
+    {
+      "task_id": "task_300",
+      "passed": false,
+      "score": 0,
+      "order_sensitive": true,
+      "gold_column_count": 1,
+      "prediction_column_count": 2,
+      "gold_row_count": 50,
+      "prediction_row_count": 49,
+      "column_mapping": null,
+      "error_code": "column_count_mismatch",
+      "error": "Expected 1 columns; received 2"
+    },
+    {
+      "task_id": "task_312",
+      "passed": true,
+      "score": 1,
+      "order_sensitive": false,
+      "gold_column_count": 3,
+      "prediction_column_count": 3,
+      "gold_row_count": 242,
+      "prediction_row_count": 242,
+      "column_mapping": [
+        {
+          "gold_index": 0,
+          "prediction_index": 0
+        },
+        {
+          "gold_index": 1,
+          "prediction_index": 1
+        },
+        {
+          "gold_index": 2,
+          "prediction_index": 2
+        }
+      ],
+      "error_code": null,
+      "error": null
+    },
+    {
+      "task_id": "task_322",
+      "passed": false,
+      "score": 0,
+      "order_sensitive": false,
+      "gold_column_count": 2,
+      "prediction_column_count": 4,
+      "gold_row_count": 331,
+      "prediction_row_count": 331,
+      "column_mapping": null,
+      "error_code": "column_count_mismatch",
+      "error": "Expected 2 columns; received 4"
+    },
+    {
+      "task_id": "task_326",
+      "passed": true,
+      "score": 1,
+      "order_sensitive": false,
+      "gold_column_count": 1,
+      "prediction_column_count": 1,
+      "gold_row_count": 1,
+      "prediction_row_count": 1,
+      "column_mapping": [
+        {
+          "gold_index": 0,
+          "prediction_index": 0
+        }
+      ],
+      "error_code": null,
+      "error": null
+    },
+    {
+      "task_id": "task_328",
+      "passed": true,
+      "score": 1,
+      "order_sensitive": false,
+      "gold_column_count": 3,
+      "prediction_column_count": 3,
+      "gold_row_count": 4,
+      "prediction_row_count": 4,
+      "column_mapping": [
+        {
+          "gold_index": 0,
+          "prediction_index": 0
+        },
+        {
+          "gold_index": 1,
+          "prediction_index": 1
+        },
+        {
+          "gold_index": 2,
+          "prediction_index": 2
+        }
+      ],
+      "error_code": null,
+      "error": null
+    },
+    {
+      "task_id": "task_329",
+      "passed": true,
+      "score": 1,
+      "order_sensitive": false,
+      "gold_column_count": 1,
+      "prediction_column_count": 1,
+      "gold_row_count": 1,
+      "prediction_row_count": 1,
+      "column_mapping": [
+        {
+          "gold_index": 0,
+          "prediction_index": 0
+        }
+      ],
+      "error_code": null,
+      "error": null
+    },
+    {
+      "task_id": "task_336",
+      "passed": true,
+      "score": 1,
+      "order_sensitive": false,
+      "gold_column_count": 4,
+      "prediction_column_count": 4,
+      "gold_row_count": 1,
+      "prediction_row_count": 1,
+      "column_mapping": [
+        {
+          "gold_index": 0,
+          "prediction_index": 0
+        },
+        {
+          "gold_index": 1,
+          "prediction_index": 1
+        },
+        {
+          "gold_index": 2,
+          "prediction_index": 2
+        },
+        {
+          "gold_index": 3,
+          "prediction_index": 3
+        }
+      ],
+      "error_code": null,
+      "error": null
+    },
+    {
+      "task_id": "task_337",
+      "passed": true,
+      "score": 1,
+      "order_sensitive": false,
+      "gold_column_count": 1,
+      "prediction_column_count": 1,
+      "gold_row_count": 1,
+      "prediction_row_count": 1,
+      "column_mapping": [
+        {
+          "gold_index": 0,
+          "prediction_index": 0
+        }
+      ],
+      "error_code": null,
+      "error": null
+    },
+    {
+      "task_id": "task_361",
+      "passed": true,
+      "score": 1,
+      "order_sensitive": false,
+      "gold_column_count": 1,
+      "prediction_column_count": 1,
+      "gold_row_count": 1,
+      "prediction_row_count": 1,
+      "column_mapping": [
+        {
+          "gold_index": 0,
+          "prediction_index": 0
+        }
+      ],
+      "error_code": null,
+      "error": null
+    },
+    {
+      "task_id": "task_362",
+      "passed": true,
+      "score": 1,
+      "order_sensitive": false,
+      "gold_column_count": 1,
+      "prediction_column_count": 1,
+      "gold_row_count": 306,
+      "prediction_row_count": 306,
+      "column_mapping": [
+        {
+          "gold_index": 0,
+          "prediction_index": 0
+        }
+      ],
+      "error_code": null,
+      "error": null
+    },
+    {
+      "task_id": "task_371",
+      "passed": true,
+      "score": 1,
+      "order_sensitive": false,
+      "gold_column_count": 2,
+      "prediction_column_count": 2,
+      "gold_row_count": 12962,
+      "prediction_row_count": 12962,
+      "column_mapping": [
+        {
+          "gold_index": 0,
+          "prediction_index": 0
+        },
+        {
+          "gold_index": 1,
+          "prediction_index": 1
+        }
+      ],
+      "error_code": null,
+      "error": null
+    },
+    {
+      "task_id": "task_378",
+      "passed": true,
+      "score": 1,
+      "order_sensitive": false,
+      "gold_column_count": 1,
+      "prediction_column_count": 1,
+      "gold_row_count": 1,
+      "prediction_row_count": 1,
+      "column_mapping": [
+        {
+          "gold_index": 0,
+          "prediction_index": 0
+        }
+      ],
+      "error_code": null,
+      "error": null
+    },
+    {
+      "task_id": "task_380",
+      "passed": false,
+      "score": 0,
+      "order_sensitive": false,
+      "gold_column_count": 1,
+      "prediction_column_count": 1,
+      "gold_row_count": 1,
+      "prediction_row_count": 4,
+      "column_mapping": null,
+      "error_code": "row_count_mismatch",
+      "error": "Expected 1 data rows; received 4"
+    },
+    {
+      "task_id": "task_382",
+      "passed": false,
+      "score": 0,
+      "order_sensitive": false,
+      "gold_column_count": 1,
+      "prediction_column_count": 2,
+      "gold_row_count": 1,
+      "prediction_row_count": 1,
+      "column_mapping": null,
+      "error_code": "column_count_mismatch",
+      "error": "Expected 1 columns; received 2"
+    },
+    {
+      "task_id": "task_389",
+      "passed": true,
+      "score": 1,
+      "order_sensitive": true,
+      "gold_column_count": 3,
+      "prediction_column_count": 3,
+      "gold_row_count": 50,
+      "prediction_row_count": 50,
+      "column_mapping": [
+        {
+          "gold_index": 0,
+          "prediction_index": 0
+        },
+        {
+          "gold_index": 1,
+          "prediction_index": 1
+        },
+        {
+          "gold_index": 2,
+          "prediction_index": 2
+        }
+      ],
+      "error_code": null,
+      "error": null
+    },
+    {
+      "task_id": "task_391",
+      "passed": false,
+      "score": 0,
+      "order_sensitive": false,
+      "gold_column_count": 5,
+      "prediction_column_count": 4,
+      "gold_row_count": 1,
+      "prediction_row_count": 1,
+      "column_mapping": null,
+      "error_code": "column_count_mismatch",
+      "error": "Expected 5 columns; received 4"
+    },
+    {
+      "task_id": "task_398",
+      "passed": true,
+      "score": 1,
+      "order_sensitive": false,
+      "gold_column_count": 2,
+      "prediction_column_count": 2,
+      "gold_row_count": 18,
+      "prediction_row_count": 18,
+      "column_mapping": [
+        {
+          "gold_index": 0,
+          "prediction_index": 0
+        },
+        {
+          "gold_index": 1,
+          "prediction_index": 1
+        }
+      ],
+      "error_code": null,
+      "error": null
+    },
+    {
+      "task_id": "task_402",
+      "passed": true,
+      "score": 1,
+      "order_sensitive": false,
+      "gold_column_count": 3,
+      "prediction_column_count": 3,
+      "gold_row_count": 1,
+      "prediction_row_count": 1,
+      "column_mapping": [
+        {
+          "gold_index": 0,
+          "prediction_index": 0
+        },
+        {
+          "gold_index": 1,
+          "prediction_index": 1
+        },
+        {
+          "gold_index": 2,
+          "prediction_index": 2
+        }
+      ],
+      "error_code": null,
+      "error": null
+    },
+    {
+      "task_id": "task_409",
+      "passed": true,
+      "score": 1,
+      "order_sensitive": false,
+      "gold_column_count": 1,
+      "prediction_column_count": 1,
+      "gold_row_count": 1,
+      "prediction_row_count": 1,
+      "column_mapping": [
+        {
+          "gold_index": 0,
+          "prediction_index": 0
+        }
+      ],
+      "error_code": null,
+      "error": null
+    }
+  ]
+}

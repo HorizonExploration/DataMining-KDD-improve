@@ -10,7 +10,8 @@
 /downloads/
 /cache/
 /data/
-/runs/
+/runs/*
+!/runs/shared_public60_20261026/
 /tools/
 /champion/asr_models/
 **/.venv/
@@ -26,7 +27,6 @@ htmlcov/
 
 # Local deployment records, original course materials, and snapshots
 /.local/
-/intro-plan/
 /docs/*.json
 /docs/*.txt
 /docs/*.patch

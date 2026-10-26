@@ -1,0 +1,17 @@
+{
+  "completed_at": "2026-10-26T03:14:19.561127+08:00",
+  "imported_model_trial": {
+    "note": "Same code, inputs, endpoint, ASR and effective inference settings; scheduling/version labels recorded separately",
+    "original_receipt": {
+      "completed_at": "2026-10-26T03:14:19.561127+08:00",
+      "prediction_sha256": "18e34c0fd69b0f1f42518659d83faf7cc7d6ba250872c6bdfbe3b64399917837",
+      "run_identity": "2d30d61135dc4e6133e7f2ab07440978bdaa26ba26351cdd352a08a2b70299a9",
+      "success": true
+    },
+    "resolved_model": "ecnu-max",
+    "run_dir": "runs/baseline_full_20261025/model_trials/ecnu_max_20261026_031112_40106"
+  },
+  "prediction_sha256": "18e34c0fd69b0f1f42518659d83faf7cc7d6ba250872c6bdfbe3b64399917837",
+  "run_identity": "593e0cef16140ec31dae33df7e4657e8ecee189ab553fac7b3743271c2a82799",
+  "success": true
+}

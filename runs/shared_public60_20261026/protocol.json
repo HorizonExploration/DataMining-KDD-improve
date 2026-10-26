@@ -1,0 +1,105 @@
+{
+  "configuration": {
+    "ASR_BACKEND": "local",
+    "KDD_DOC_CACHE_MODE": "readwrite",
+    "MAX_PARALLEL": "4",
+    "MODEL_API_PROFILE": "openai",
+    "MODEL_HTTP_429_RETRIES": "",
+    "MODEL_HTTP_CONNECT_TIMEOUT": "",
+    "MODEL_HTTP_TIMEOUT": "",
+    "MODEL_MAX_CONCURRENCY": "2",
+    "MODEL_NAME": "ecnu-plus",
+    "MODEL_RPM": "0",
+    "MODEL_SOLVER_THINKING": "disabled",
+    "MODEL_THINKING_FORMAT": "ecnu",
+    "MODEL_VERSION_LABEL": "",
+    "MODEL_VIDEO_NAME": "ecnu-max"
+  },
+  "models_changed": true,
+  "original_baseline_evaluation": "runs/baseline_full_20261025/sessions/20261026_031530_41205/evaluation.json",
+  "original_manifest": "runs/baseline_full_20261025/sessions/20261026_031530_41205/run_manifest.json",
+  "policy": "video input -> ecnu-max; text-only input -> ecnu-plus; preserve 33 prior completed predictions and import validated max pilot",
+  "prior_predictions_preserved": [
+    "task_10",
+    "task_18",
+    "task_33",
+    "task_35",
+    "task_43",
+    "task_44",
+    "task_58",
+    "task_86",
+    "task_87",
+    "task_103",
+    "task_127",
+    "task_129",
+    "task_140",
+    "task_166",
+    "task_168",
+    "task_182",
+    "task_196",
+    "task_200",
+    "task_208",
+    "task_257",
+    "task_259",
+    "task_264",
+    "task_267",
+    "task_269",
+    "task_285",
+    "task_322",
+    "task_326",
+    "task_329",
+    "task_337",
+    "task_371",
+    "task_380",
+    "task_391",
+    "task_409"
+  ],
+  "reviewed_change": {
+    "configuration_changes": {
+      "MODEL_MAX_CONCURRENCY": {
+        "after": "2",
+        "before": "5"
+      },
+      "MODEL_SOLVER_THINKING": {
+        "after": "disabled",
+        "before": "default"
+      },
+      "MODEL_THINKING_FORMAT": {
+        "after": "ecnu",
+        "before": "legacy"
+      },
+      "MODEL_VIDEO_NAME": {
+        "after": "ecnu-max",
+        "before": null
+      }
+    },
+    "diagnostic": "docs/ecnu-models-multimodal-probe.json",
+    "pilot": "runs/baseline_full_20261025/model_trials/ecnu_max_20261026_031112_40106",
+    "policy": "video input -> ecnu-max; text-only input -> ecnu-plus; preserve 33 prior completed predictions and import validated max pilot",
+    "source_changes": {
+      "champion/src/data_agent_baseline/tools_v2/general_tools.py": {
+        "after": "a36553a99e55771edbe9f908f4084fb4f57e8722363db1a6cd7a861c6e4308e1",
+        "before": "8bf7a4e683eb4597881cda763c5642bf6b46124444cb0907ed8bc7b285770f5b"
+      },
+      "champion/src/data_agent_baseline/tools_v2/model_http.py": {
+        "after": "14c44b126d581f9249a519d7587034833d0680a0cdbf065f832e1c6636a52a05",
+        "before": "192d90d52186e09011f11af01c05a131fd32fb2515df56434f1ed90a3566e964"
+      },
+      "champion/src/data_agent_baseline/tools_v2/run_state.py": {
+        "after": "42a4fdd7375e6df29d2d4ce6f894fdf2644b6524251930a4ae19e71207698a2f",
+        "before": "fad9baa9891d1ee70b671b3542b068a65b75c6ddf5ba0692900a349b4330c656"
+      },
+      "champion/src/data_agent_baseline/video/frame_html_tool.py": {
+        "after": "0228052dac0fc882d8822cc0a04943fc6f2b7a33a19bd4517964175c426e2d75",
+        "before": "593c5f6bbb50efdb4789d723d941386337b6cf0368a1e7c75168e247ad6140e4"
+      },
+      "scripts/run_tasks.sh": {
+        "after": "e8613bf76a1ccfa36dbdbc60465b14e0be60e818c7ec69e0d48d2aac17347b0b",
+        "before": "00850f63734cc441bdf5ddd401403a3e6544718e70d28e762cc45e755793b25e"
+      }
+    }
+  },
+  "scope": "public60_routing_repair_with_historical_predictions",
+  "score_policy": "All 60 tasks; describe as mixed-model repair, not a pure ecnu-max rerun",
+  "current_source_snapshot": "runs/baseline_full_20261025/sessions/20261026_031530_41205/routing-source.tar.gz"
+}

@@ -7,3 +7,5 @@
 *.toml text eol=lf
 *.lock text eol=lf
 *.png binary
+# Experiment archives preserve original bytes for receipt/SHA-256 validation.
+runs/shared_public60_20261026/** -text
